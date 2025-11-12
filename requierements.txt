@@ -1,0 +1,31 @@
+# ==============================
+# Dependencias principales
+# ==============================
+
+# Manejo de variables de entorno (.env)
+python-dotenv==1.0.0
+
+# Cliente de Hugging Face para inferencia LLM
+huggingface-hub==0.17.4
+
+# Interfaz web para pruebas / demos
+gradio==3.56.0
+
+# ==============================
+# Testing
+# ==============================
+
+# Framework de testing y fixtures
+pytest==9.0.0
+
+# ==============================
+# Utilidades y tipado
+# ==============================
+
+# Extensiones de tipado para Python < 3.11
+typing-extensions==4.8.0
+
+# ==============================
+# (Opcional) para estadísticas y logging, ya vienen con Python
+# ==============================
+# statistics, logging, os, time, uuid -> no requieren instalación externa

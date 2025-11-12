@@ -1,0 +1,864 @@
+2025-11-10 22:53:54,740 | INFO | \u2705 OK | intento=1 | latencia=1.45s | tokens=19
+2025-11-10 22:53:56,076 | INFO | \u2705 OK | intento=1 | latencia=1.34s | tokens=30
+2025-11-10 22:53:57,822 | INFO | \u2705 OK | intento=1 | latencia=1.74s | tokens=48
+2025-11-10 22:53:59,585 | INFO | \u2705 OK | intento=1 | latencia=1.76s | tokens=62
+2025-11-10 22:54:01,676 | INFO | \u2705 OK | intento=1 | latencia=2.09s | tokens=86
+2025-11-10 22:54:35,157 | INFO | \u2705 OK | intento=1 | latencia=1.55s | tokens=23
+2025-11-10 22:54:48,132 | INFO | \u2705 OK | intento=1 | latencia=2.12s | tokens=18
+2025-11-10 22:54:48,134 | INFO | MÉTRICAS | p50=2.12s | p95=2.12s | reintentos=0 | fallbacks=0
+2025-11-10 23:50:11,669 | INFO | \u2705 OK | intento=1 | latencia=2.56s | tokens=60
+2025-11-10 23:50:35,757 | INFO | \u2705 OK | intento=1 | latencia=2.45s | tokens=57
+2025-11-11 00:39:33,166 | WARNING | 089f8adb-b1c8-436c-ab0b-f4ab5748ea14 | ERROR otro | attempt=1 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:39:34,166 | WARNING | 089f8adb-b1c8-436c-ab0b-f4ab5748ea14 | ERROR otro | attempt=2 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:39:36,167 | WARNING | 089f8adb-b1c8-436c-ab0b-f4ab5748ea14 | ERROR otro | attempt=3 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:39:36,167 | ERROR | 089f8adb-b1c8-436c-ab0b-f4ab5748ea14 | Fallback activado tras agotar reintentos.
+2025-11-11 00:39:36,172 | WARNING | 9fc4cd5a-29a9-4da3-b619-0dc17ba16771 | ERROR otro | attempt=1 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:39:37,173 | WARNING | 9fc4cd5a-29a9-4da3-b619-0dc17ba16771 | ERROR otro | attempt=2 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:39:39,173 | WARNING | 9fc4cd5a-29a9-4da3-b619-0dc17ba16771 | ERROR otro | attempt=3 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:39:39,173 | ERROR | 9fc4cd5a-29a9-4da3-b619-0dc17ba16771 | Fallback activado tras agotar reintentos.
+2025-11-11 00:39:39,175 | WARNING | 08de9a5b-e970-4363-b5b2-bae9aa7ed0b0 | Simulated error 500
+2025-11-11 00:39:58,192 | WARNING | ec6c10c8-2ebe-47b7-b4f6-94f001ae1b8c | ERROR otro | attempt=1 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:39:59,193 | WARNING | ec6c10c8-2ebe-47b7-b4f6-94f001ae1b8c | ERROR otro | attempt=2 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:40:01,193 | WARNING | ec6c10c8-2ebe-47b7-b4f6-94f001ae1b8c | ERROR otro | attempt=3 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:40:01,194 | ERROR | ec6c10c8-2ebe-47b7-b4f6-94f001ae1b8c | Fallback activado tras agotar reintentos.
+2025-11-11 00:40:01,198 | WARNING | 34753af8-c7c2-4f93-a70a-8a1ae10b484e | ERROR otro | attempt=1 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:40:02,199 | WARNING | 34753af8-c7c2-4f93-a70a-8a1ae10b484e | ERROR otro | attempt=2 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:40:04,200 | WARNING | 34753af8-c7c2-4f93-a70a-8a1ae10b484e | ERROR otro | attempt=3 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:40:04,200 | ERROR | 34753af8-c7c2-4f93-a70a-8a1ae10b484e | Fallback activado tras agotar reintentos.
+2025-11-11 00:40:04,201 | WARNING | fa0160d5-a569-499d-8851-5e6382a7f32b | Simulated error 500
+2025-11-11 00:50:33,166 | WARNING | 10972066-fafb-413a-add5-9b9e93792da4 | ERROR otro | attempt=1 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:50:34,166 | WARNING | 10972066-fafb-413a-add5-9b9e93792da4 | ERROR otro | attempt=2 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:50:36,167 | WARNING | 10972066-fafb-413a-add5-9b9e93792da4 | ERROR otro | attempt=3 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:50:36,167 | ERROR | 10972066-fafb-413a-add5-9b9e93792da4 | Fallback activado tras agotar reintentos.
+2025-11-11 00:51:28,589 | WARNING | 9b595a15-207f-4cab-9061-a4c52f25c5e2 | ERROR otro | attempt=1 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:51:29,590 | WARNING | 9b595a15-207f-4cab-9061-a4c52f25c5e2 | ERROR otro | attempt=2 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:51:31,591 | WARNING | 9b595a15-207f-4cab-9061-a4c52f25c5e2 | ERROR otro | attempt=3 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:51:31,592 | ERROR | 9b595a15-207f-4cab-9061-a4c52f25c5e2 | Fallback activado tras agotar reintentos.
+2025-11-11 00:52:05,694 | WARNING | b9459554-74ff-489e-b856-2295aa253f45 | ERROR otro | attempt=1 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:52:06,695 | WARNING | b9459554-74ff-489e-b856-2295aa253f45 | ERROR otro | attempt=2 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:52:08,695 | WARNING | b9459554-74ff-489e-b856-2295aa253f45 | ERROR otro | attempt=3 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:52:08,695 | ERROR | b9459554-74ff-489e-b856-2295aa253f45 | Fallback activado tras agotar reintentos.
+2025-11-11 00:52:08,798 | WARNING | 6e36b5e6-c7cf-4454-a192-851543c2911a | ERROR otro | attempt=1 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:52:09,799 | WARNING | 6e36b5e6-c7cf-4454-a192-851543c2911a | ERROR otro | attempt=2 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:52:11,799 | WARNING | 6e36b5e6-c7cf-4454-a192-851543c2911a | ERROR otro | attempt=3 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:52:11,799 | ERROR | 6e36b5e6-c7cf-4454-a192-851543c2911a | Fallback activado tras agotar reintentos.
+2025-11-11 00:52:11,801 | WARNING | a2f70a77-eacf-4583-83c0-6cf9dcea9487 | Simulated error 500
+2025-11-11 00:54:35,062 | WARNING | e9b848e3-20e5-41c1-b089-c7a4a93d74ed | ERROR otro | attempt=1 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:54:36,062 | WARNING | e9b848e3-20e5-41c1-b089-c7a4a93d74ed | ERROR otro | attempt=2 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:54:38,063 | WARNING | e9b848e3-20e5-41c1-b089-c7a4a93d74ed | ERROR otro | attempt=3 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:54:38,063 | ERROR | e9b848e3-20e5-41c1-b089-c7a4a93d74ed | Fallback activado tras agotar reintentos.
+2025-11-11 00:54:38,069 | WARNING | e73fed8d-e7a4-4161-975d-3950c13a3433 | ERROR otro | attempt=1 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:54:39,069 | WARNING | e73fed8d-e7a4-4161-975d-3950c13a3433 | ERROR otro | attempt=2 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:54:41,070 | WARNING | e73fed8d-e7a4-4161-975d-3950c13a3433 | ERROR otro | attempt=3 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:54:41,070 | ERROR | e73fed8d-e7a4-4161-975d-3950c13a3433 | Fallback activado tras agotar reintentos.
+2025-11-11 00:54:41,070 | WARNING | a1ce4b2f-4dd9-4424-b454-df37a876c17e | ERROR otro | attempt=1 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:54:42,070 | WARNING | a1ce4b2f-4dd9-4424-b454-df37a876c17e | ERROR otro | attempt=2 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:54:44,071 | WARNING | a1ce4b2f-4dd9-4424-b454-df37a876c17e | ERROR otro | attempt=3 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:54:44,071 | ERROR | a1ce4b2f-4dd9-4424-b454-df37a876c17e | Fallback activado tras agotar reintentos.
+2025-11-11 00:54:44,167 | WARNING | 98d50c33-8da2-4f2e-ab58-0b66fb1af521 | Simulated error 401
+2025-11-11 00:54:44,168 | WARNING | 9eb47a12-a1fc-4af4-ac51-3dc42d87d07a | ERROR otro | attempt=1 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:54:45,168 | WARNING | 9eb47a12-a1fc-4af4-ac51-3dc42d87d07a | ERROR otro | attempt=2 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:54:47,169 | WARNING | 9eb47a12-a1fc-4af4-ac51-3dc42d87d07a | ERROR otro | attempt=3 | detalle=InferenceClient.text_generation() got an unexpected keyword argument 'timeout' | latencia=0.00s
+2025-11-11 00:54:47,169 | ERROR | 9eb47a12-a1fc-4af4-ac51-3dc42d87d07a | Fallback activado tras agotar reintentos.
+2025-11-11 00:54:47,171 | WARNING | 563dc169-0ebd-4469-90ce-e9b4d7a10c95 | Simulated error 500
+2025-11-11 00:57:00,155 | INFO | 8c983c41-7493-4aa1-8451-057b7dec9e17 | OK | attempt=1 | latencia=4.34s | tokens\u224819
+2025-11-11 00:57:02,783 | INFO | 213ebb44-6639-4ce6-8ec1-d5c0ae50050d | OK | attempt=1 | latencia=2.62s | tokens\u224840
+2025-11-11 00:57:08,693 | INFO | 5499815f-4630-4ca2-970a-9300742d2b7f | OK | attempt=1 | latencia=5.91s | tokens\u224888
+2025-11-11 00:57:08,695 | WARNING | 2612fb3c-862d-4623-896f-16aeb7b5b4b3 | Simulated error 401
+2025-11-11 00:57:12,893 | INFO | 07bb0e60-275b-414e-93b8-3d84594cae45 | OK | attempt=1 | latencia=4.20s | tokens\u224819
+2025-11-11 00:57:12,894 | WARNING | 4679c1c4-1b7c-4071-b304-c060a7c618a7 | Simulated error 500
+2025-11-11 00:58:35,110 | INFO | fe12d23f-21f0-4788-b3b0-d1b1d6662035 | OK | attempt=1 | latencia=19.27s | tokens\u2248429
+2025-11-11 00:58:41,488 | INFO | ae5b538b-9922-44df-8b24-18efed711c57 | OK | attempt=1 | latencia=2.89s | tokens\u2248434
+2025-11-11 00:58:41,591 | WARNING | 44ab6c5b-3cf8-4c8b-8d08-4e7aae507ed7 | Simulated error 401
+2025-11-11 00:59:50,624 | INFO | 5ece6d9a-f4c8-4df2-a825-aae944e9183a | OK | attempt=1 | latencia=10.46s | tokens\u2248234
+2025-11-11 00:59:53,285 | INFO | 4a99a859-9c06-462d-83c7-4e3e370933b5 | OK | attempt=1 | latencia=2.66s | tokens\u2248239
+2025-11-11 00:59:53,380 | WARNING | 67a19619-4df6-47e7-8ca1-399c8ad3ec9c | Simulated error 401
+2025-11-11 01:01:32,899 | INFO | 71d09fad-ce91-488d-88df-8c0a78d2722a | OK | attempt=1 | latencia=4.72s | tokens\u224880
+2025-11-11 01:01:40,823 | INFO | 8465fdd7-857e-4b54-9201-1b53a795877b | OK | attempt=1 | latencia=7.92s | tokens\u2248158
+2025-11-11 01:01:40,917 | WARNING | 095d6fe4-8b6e-4dbe-9876-dd1cfe07fb99 | Simulated error 401
+2025-11-11 01:03:34,633 | INFO | 09ece4d1-8eb1-4643-a980-676a49d6da7f | OK | attempt=1 | latencia=10.73s | tokens\u2248219
+2025-11-11 01:03:35,847 | INFO | fc51f4e2-0450-4d1f-a2f8-66afe21e4636 | OK | attempt=1 | latencia=1.21s | tokens\u2248227
+2025-11-11 01:03:35,849 | WARNING | c85791e2-12e4-4c5f-a78e-b83b94aa64a5 | Simulated error 401
+2025-11-11 01:06:03,852 | INFO | 4ac56aca-0f52-428c-a99c-53e45640f23c | OK | attempt=1 | latencia=7.11s | tokens\u224865
+2025-11-11 01:06:21,973 | INFO | 16c9c0e6-a471-4935-bb53-b56da88d6eb8 | OK | attempt=1 | latencia=5.55s | tokens\u224869
+2025-11-11 01:06:44,069 | INFO | 711a1395-08db-42ed-bdd0-23e827406889 | OK | attempt=1 | latencia=1.72s | tokens\u2248101
+2025-11-11 01:06:53,261 | INFO | 375635e2-4b0b-4080-a8fa-eba792349a8c | OK | attempt=1 | latencia=1.74s | tokens\u2248117
+2025-11-11 01:11:25,811 | INFO | 67b2822e-d782-46ce-8c23-9f229b09ddfd | OK | attempt=1 | latencia=19.17s | tokens\u2248296
+2025-11-11 01:11:34,178 | INFO | a99b67b6-8cb0-4513-a01b-ce62a6b6ae0b | OK | attempt=1 | latencia=8.37s | tokens\u2248388
+2025-11-11 01:11:50,122 | INFO | 88e20e14-1a1c-4c1b-8842-4d0866b84671 | OK | attempt=1 | latencia=2.84s | tokens\u2248403
+2025-11-11 01:12:51,842 | WARNING | e6698604-87cc-4e24-b961-024cf12d973b | ERROR otro | attempt=1 | detalle=Model meta-llama/Meta-Llama-3-8B-Instruct is not supported for task text-generation and provider novita. Supported task: conversational. | latencia=0.16s
+2025-11-11 01:12:52,843 | WARNING | e6698604-87cc-4e24-b961-024cf12d973b | ERROR otro | attempt=2 | detalle=Model meta-llama/Meta-Llama-3-8B-Instruct is not supported for task text-generation and provider novita. Supported task: conversational. | latencia=0.00s
+2025-11-11 01:12:54,844 | WARNING | e6698604-87cc-4e24-b961-024cf12d973b | ERROR otro | attempt=3 | detalle=Model meta-llama/Meta-Llama-3-8B-Instruct is not supported for task text-generation and provider novita. Supported task: conversational. | latencia=0.00s
+2025-11-11 01:12:54,844 | ERROR | e6698604-87cc-4e24-b961-024cf12d973b | Fallback activado tras agotar reintentos.
+2025-11-11 01:15:47,370 | WARNING | 08004165-b679-4e5f-a11f-c51d72e8dab8 | ERROR otro | attempt=1 | detalle=Model meta-llama/Meta-Llama-3-8B-Instruct is not supported for task text-generation and provider novita. Supported task: conversational. | latencia=0.00s
+2025-11-11 01:15:48,371 | WARNING | 08004165-b679-4e5f-a11f-c51d72e8dab8 | ERROR otro | attempt=2 | detalle=Model meta-llama/Meta-Llama-3-8B-Instruct is not supported for task text-generation and provider novita. Supported task: conversational. | latencia=0.00s
+2025-11-11 01:15:50,371 | WARNING | 08004165-b679-4e5f-a11f-c51d72e8dab8 | ERROR otro | attempt=3 | detalle=Model meta-llama/Meta-Llama-3-8B-Instruct is not supported for task text-generation and provider novita. Supported task: conversational. | latencia=0.00s
+2025-11-11 01:15:50,372 | ERROR | 08004165-b679-4e5f-a11f-c51d72e8dab8 | Fallback activado tras agotar reintentos.
+2025-11-11 01:15:59,289 | WARNING | ee75494b-c621-4e64-89d7-488abd6c68c1 | ERROR otro | attempt=1 | detalle='InferenceClient' object has no attribute 'conversational' | latencia=0.00s
+2025-11-11 01:16:00,290 | WARNING | ee75494b-c621-4e64-89d7-488abd6c68c1 | ERROR otro | attempt=2 | detalle='InferenceClient' object has no attribute 'conversational' | latencia=0.00s
+2025-11-11 01:16:02,291 | WARNING | ee75494b-c621-4e64-89d7-488abd6c68c1 | ERROR otro | attempt=3 | detalle='InferenceClient' object has no attribute 'conversational' | latencia=0.00s
+2025-11-11 01:16:02,291 | ERROR | ee75494b-c621-4e64-89d7-488abd6c68c1 | Fallback activado tras agotar reintentos.
+2025-11-11 01:16:25,336 | WARNING | 97a3390b-5657-4258-8d42-ca979915e9cd | ERROR otro | attempt=1 | detalle='InferenceClient' object has no attribute 'conversational' | latencia=0.00s
+2025-11-11 01:16:26,336 | WARNING | 97a3390b-5657-4258-8d42-ca979915e9cd | ERROR otro | attempt=2 | detalle='InferenceClient' object has no attribute 'conversational' | latencia=0.00s
+2025-11-11 01:16:28,337 | WARNING | 97a3390b-5657-4258-8d42-ca979915e9cd | ERROR otro | attempt=3 | detalle='InferenceClient' object has no attribute 'conversational' | latencia=0.00s
+2025-11-11 01:16:28,337 | ERROR | 97a3390b-5657-4258-8d42-ca979915e9cd | Fallback activado tras agotar reintentos.
+2025-11-11 01:18:47,957 | INFO | 827aea37-10f9-4b34-affc-9913aa50bc09 | OK | attempt=1 | latencia=1.07s | tokens\u224814
+2025-11-11 01:18:58,797 | INFO | efb706ec-2534-4d08-9841-95f511829619 | OK | attempt=1 | latencia=1.30s | tokens\u224854
+2025-11-11 01:19:10,118 | INFO | b4f09bd0-421b-444a-9170-239289e3b995 | OK | attempt=1 | latencia=1.15s | tokens\u224897
+2025-11-11 01:19:18,615 | INFO | f14d402b-047a-4fb0-8a1c-e7d28a0e82d1 | OK | attempt=1 | latencia=1.61s | tokens\u2248156
+2025-11-11 01:23:31,774 | INFO | 8e349758-153b-413d-b72b-c2ac6fdc1358 | OK | attempt=1 | latencia=2.80s | tokens\u2248118
+2025-11-11 01:23:32,538 | INFO | f08d8159-3a7a-41c8-85c2-082344fc149a | OK | attempt=1 | latencia=0.76s | tokens\u224813
+2025-11-11 01:23:33,603 | INFO | bd2436e0-18e3-4e33-82dd-cf1acef150bf | OK | attempt=1 | latencia=1.06s | tokens\u224832
+2025-11-11 01:23:33,605 | WARNING | d1db49f4-3292-4e1d-955c-b4b336ce9952 | Simulated error 401
+2025-11-11 01:23:33,605 | WARNING | ac8d7198-fc96-43d8-9a69-ad6975c8d04b | Simulated error 401
+2025-11-11 01:23:33,605 | WARNING | 933d048f-0fea-4eed-9823-a13e12834403 | Simulated error 401
+2025-11-11 01:23:33,605 | WARNING | 21aa0e16-4476-407e-a440-fb549c7d27a8 | Simulated error 401
+2025-11-11 01:23:33,605 | WARNING | 1bfbf9b1-81ef-4076-99aa-295de24591ab | Simulated error 401
+2025-11-11 01:23:33,605 | WARNING | dd78dc40-0953-43e0-b0f3-4338b603de1a | Simulated error 401
+2025-11-11 01:23:33,605 | WARNING | 43b1761c-581b-4cb6-bed6-df185168313d | Simulated error 401
+2025-11-11 01:23:33,605 | WARNING | c87c570c-61df-46c2-88ee-d5fe4aebfa64 | Simulated error 401
+2025-11-11 01:23:33,605 | WARNING | b1ddac01-06f4-4635-9fef-b9cd098cb75c | Simulated error 401
+2025-11-11 01:23:33,605 | WARNING | 5ccdf687-ef85-4210-836e-dda1968b2d56 | Simulated error 401
+2025-11-11 01:23:33,605 | WARNING | 544abdce-15f4-4567-8808-f1c55ec9a578 | Simulated error 401
+2025-11-11 01:23:36,162 | INFO | 18832135-033a-484a-a186-a3adc88b85de | OK | attempt=1 | latencia=2.46s | tokens\u2248127
+2025-11-11 01:23:36,163 | WARNING | 0505048b-a78f-482e-a5f9-5a62790ac994 | Simulated error 500
+2025-11-11 01:25:20,400 | INFO | 9038ad83-1ca1-4c8a-89fe-56ad4f63d67b | OK | attempt=1 | latencia=2.48s | tokens\u2248111
+2025-11-11 01:25:21,140 | INFO | 2ea9f15d-82e6-4b88-bf20-d5ec317fe2ef | OK | attempt=1 | latencia=0.73s | tokens\u224813
+2025-11-11 01:25:22,082 | INFO | 35b83116-9866-46f9-8c86-3bad3c6a9354 | OK | attempt=1 | latencia=0.94s | tokens\u224826
+2025-11-11 01:25:22,083 | WARNING | 8cf80e6e-c164-4d58-a553-c2021f48bf6c | Simulated error 401
+2025-11-11 01:25:23,249 | INFO | 87ba504d-1f8a-42c6-b3ef-e1ebd8eb0a0a | OK | attempt=1 | latencia=1.17s | tokens\u224831
+2025-11-11 01:25:24,400 | INFO | 5aa5ee69-8a0c-42c1-8802-317a51d2ef80 | OK | attempt=1 | latencia=1.15s | tokens\u224858
+2025-11-11 01:25:25,694 | INFO | 839e54ad-8e29-4676-8c72-a3a451b5497e | OK | attempt=1 | latencia=1.29s | tokens\u2248109
+2025-11-11 01:25:27,365 | INFO | c83c9ea3-096d-407e-bad2-ca0a49e5c349 | OK | attempt=1 | latencia=1.67s | tokens\u2248162
+2025-11-11 01:25:29,176 | INFO | 7eadb433-d1e2-41cf-a955-878393e563ac | OK | attempt=1 | latencia=1.81s | tokens\u2248239
+2025-11-11 01:25:31,056 | INFO | 17783a7d-0650-4058-a9a0-03713db477ed | OK | attempt=1 | latencia=1.88s | tokens\u2248309
+2025-11-11 01:25:32,952 | INFO | f9d4bf33-1358-46cd-8eb3-f4aad9228cc5 | OK | attempt=1 | latencia=1.90s | tokens\u2248374
+2025-11-11 01:25:34,675 | INFO | 4d78c0d5-ef67-48a0-b0c7-94ba88ed4cea | OK | attempt=1 | latencia=1.72s | tokens\u2248428
+2025-11-11 01:25:36,880 | INFO | 9a4fa7d8-7fb7-4f8a-9d47-dfe67f215df7 | OK | attempt=1 | latencia=2.20s | tokens\u2248528
+2025-11-11 01:25:37,789 | INFO | 13470801-92a8-45e5-8338-5bc3b61f6924 | OK | attempt=1 | latencia=0.91s | tokens\u2248541
+2025-11-11 01:25:37,874 | WARNING | edbc2b5f-dc10-4b6e-be95-6bb742571653 | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e4f2-433709bf7fe8f22f128c5047;1dd2467f-7fd8-44d8-a07f-f78db56ba1b7)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 01:25:38,963 | WARNING | edbc2b5f-dc10-4b6e-be95-6bb742571653 | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e4f3-524b8f734416829807a28010;9366cbd5-aab4-46f0-8a84-0b7b7486f616)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.09s
+2025-11-11 01:25:41,048 | WARNING | edbc2b5f-dc10-4b6e-be95-6bb742571653 | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e4f5-142c95a3253a3d9554139b2f;bd1e9590-565b-4325-b2c2-0f1a0c9446a7)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 01:25:41,048 | ERROR | edbc2b5f-dc10-4b6e-be95-6bb742571653 | Fallback activado tras agotar reintentos.
+2025-11-11 01:25:41,050 | WARNING | fcb83ec1-44fa-4fbf-a820-7bb69b3512ed | Simulated error 500
+2025-11-11 01:33:35,479 | INFO | 1d7c5abb-e7c1-4cfe-a28d-63917ec0e996 | OK | attempt=1 | latencia=2.86s | tokens\u2248115
+2025-11-11 01:33:36,501 | INFO | 3f09ecee-1d7d-457e-b2eb-c2446b274219 | OK | attempt=1 | latencia=1.02s | tokens\u224814
+2025-11-11 01:33:37,344 | INFO | 5cbfdecb-a2b0-4f2d-974e-90b4a47f6477 | OK | attempt=1 | latencia=0.84s | tokens\u224837
+2025-11-11 01:33:37,346 | WARNING | c72aece7-352a-4073-ab43-1f697aca2d1f | Simulated error 401
+2025-11-11 01:33:38,664 | INFO | 5b0e0d3f-63e9-4c5d-84ea-b57f96cd51c6 | OK | attempt=1 | latencia=1.32s | tokens\u224840
+2025-11-11 01:33:39,902 | INFO | 38b12d79-98ef-48f1-9905-5fe410431f14 | OK | attempt=1 | latencia=1.24s | tokens\u224888
+2025-11-11 01:33:41,261 | INFO | cb04e306-f2f9-47eb-9c17-12658cc5ec77 | OK | attempt=1 | latencia=1.36s | tokens\u2248139
+2025-11-11 01:33:43,647 | INFO | 15c9a01c-5eef-4f8d-a993-0ba3c127b382 | OK | attempt=1 | latencia=2.39s | tokens\u2248230
+2025-11-11 01:33:47,831 | INFO | 7bd2ea58-c3c3-4fac-a91a-542ce9ac40b2 | OK | attempt=1 | latencia=4.18s | tokens\u2248428
+2025-11-11 01:33:51,390 | INFO | fad45fc3-c538-4f28-bce5-caf51eae5155 | OK | attempt=1 | latencia=3.56s | tokens\u2248608
+2025-11-11 01:33:54,850 | INFO | e278f4ab-bef9-4448-ac0f-ba80d7b2ea75 | OK | attempt=1 | latencia=3.46s | tokens\u2248781
+2025-11-11 01:33:58,299 | INFO | 909474af-95c4-459f-a9bb-fb483d79e483 | OK | attempt=1 | latencia=3.45s | tokens\u2248948
+2025-11-11 01:34:09,793 | INFO | 54a4d0e2-79d6-46f8-b7f7-9d10666b8c0e | OK | attempt=1 | latencia=11.49s | tokens\u22481153
+2025-11-11 01:34:10,776 | INFO | 159492d4-e328-413e-af71-59b1bc60a310 | OK | attempt=1 | latencia=0.98s | tokens\u22481176
+2025-11-11 01:34:14,115 | INFO | 2036b329-9b72-4f03-b83b-6471f4bbac06 | OK | attempt=1 | latencia=3.34s | tokens\u2248140
+2025-11-11 01:34:14,116 | WARNING | 318fda61-7850-4139-b80d-68c705497b08 | Simulated error 500
+2025-11-11 01:39:01,925 | INFO | 9852163b-6daf-45e4-a128-55b95865f738 | OK | attempt=1 | latencia=2.33s | tokens\u2248106
+2025-11-11 01:39:02,782 | INFO | 67ac8a2a-4278-4b2c-aaaf-8af2c42b9504 | OK | attempt=1 | latencia=0.85s | tokens\u224811
+2025-11-11 01:39:03,727 | INFO | f809b826-51e0-449f-be0c-60a443bb46d0 | OK | attempt=1 | latencia=0.95s | tokens\u224824
+2025-11-11 01:39:03,729 | WARNING | 9c4ffda3-1d77-4732-a21c-beaa0197becb | Simulated error 401
+2025-11-11 01:39:04,948 | INFO | 0048340a-1247-4443-aef2-37eb4ec582ed | OK | attempt=1 | latencia=1.22s | tokens\u224840
+2025-11-11 01:39:06,223 | INFO | bfd6903c-5a3e-4939-8b63-ea350eae9150 | OK | attempt=1 | latencia=1.28s | tokens\u224874
+2025-11-11 01:39:08,709 | INFO | 3d77ba79-5d23-474e-8133-06a3ec2c17ea | OK | attempt=1 | latencia=2.49s | tokens\u2248187
+2025-11-11 01:39:11,095 | INFO | f3e6ade4-2853-45ae-93ea-7744bfa2b491 | OK | attempt=1 | latencia=2.39s | tokens\u2248314
+2025-11-11 01:39:14,685 | INFO | 74a1b28d-7264-4340-b502-7dd7e3c47f04 | OK | attempt=1 | latencia=3.59s | tokens\u2248517
+2025-11-11 01:39:18,909 | INFO | 39aed898-2a77-44f4-b9ae-dff063412cf7 | OK | attempt=1 | latencia=4.22s | tokens\u2248744
+2025-11-11 01:39:23,671 | INFO | c8b6284d-7af1-4c2a-9bac-29bb68f58915 | OK | attempt=1 | latencia=4.76s | tokens\u2248988
+2025-11-11 01:39:28,880 | INFO | cf899629-b09c-4348-8c9f-87a9f495d16b | OK | attempt=1 | latencia=5.21s | tokens\u22481251
+2025-11-11 01:39:33,738 | INFO | b7362f49-ffdd-439f-bc08-37172ee7df81 | OK | attempt=1 | latencia=4.86s | tokens\u22481465
+2025-11-11 01:39:34,594 | INFO | 62e752d3-7cfd-4a21-b8d6-26a6c4407320 | OK | attempt=1 | latencia=0.86s | tokens\u22481478
+2025-11-11 01:39:35,598 | INFO | a17c4450-cd3b-4b8f-9191-b787f3dcbf73 | OK | attempt=1 | latencia=1.00s | tokens\u224814
+2025-11-11 01:39:35,681 | WARNING | bec484d5-10b6-4ee9-9c88-69556908cc3b | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e838-611906bf12acddfe6b7c1eae;ee763419-7803-4710-9b59-abc8d9e4dda4)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 01:39:36,770 | WARNING | bec484d5-10b6-4ee9-9c88-69556908cc3b | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e839-1f029b81206e4ff6657464b6;57f9c0ae-4a7a-41a7-ae60-1c8f4c0a12c3)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.09s
+2025-11-11 01:39:38,854 | WARNING | bec484d5-10b6-4ee9-9c88-69556908cc3b | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e83b-51100fc5151c68a245e71a30;96d9455d-8d55-43d7-99c2-40ce16625df0)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 01:39:38,854 | ERROR | bec484d5-10b6-4ee9-9c88-69556908cc3b | Fallback activado tras agotar reintentos.
+2025-11-11 01:39:38,935 | WARNING | b177f91f-73ec-44be-88c8-98edeb9cb72a | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e83b-4e85c047678a7a0d16e56cda;65a4c4b8-453f-429e-b2a0-879c991f0bb0)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 01:39:40,019 | WARNING | b177f91f-73ec-44be-88c8-98edeb9cb72a | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e83c-14569702001733f71bc2e2ea;11a7c528-1977-48c5-9afa-ecb25f59e26d)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 01:39:42,380 | WARNING | b177f91f-73ec-44be-88c8-98edeb9cb72a | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e83e-785cc67b4b883bd917596df5;8b139883-90ec-4480-b4a3-fa0181f4ac8c)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.36s
+2025-11-11 01:39:42,380 | ERROR | b177f91f-73ec-44be-88c8-98edeb9cb72a | Fallback activado tras agotar reintentos.
+2025-11-11 01:39:42,601 | WARNING | 055dcc15-e121-401d-890b-f8248c9ac0f9 | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e83e-3a9b30445b4e95d06fb66317;79896a00-9232-4754-a321-35e0c658252e)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.22s
+2025-11-11 01:39:43,697 | WARNING | 055dcc15-e121-401d-890b-f8248c9ac0f9 | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e840-41a458b3035291f14e0bda7b;1d6f26d3-db8e-4a62-8128-86b11a1c40a8)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.10s
+2025-11-11 01:39:45,777 | WARNING | 055dcc15-e121-401d-890b-f8248c9ac0f9 | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e842-1e7a23102b92745855e42bba;11b7aac9-08bb-400a-a43d-213c2a9a3167)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 01:39:45,777 | ERROR | 055dcc15-e121-401d-890b-f8248c9ac0f9 | Fallback activado tras agotar reintentos.
+2025-11-11 01:39:45,867 | WARNING | a1e7974e-e942-4477-93bc-cd43ae24982e | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e842-2704579510aa5a3009df1a8d;7affc953-4e76-42cf-bb50-49d643bbf96c)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.09s
+2025-11-11 01:39:46,948 | WARNING | a1e7974e-e942-4477-93bc-cd43ae24982e | ERROR 4xx (cliente) | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e843-3e049f4b4e7ab5ca12ebf562;e08d7a65-0870-401a-b333-0149adb2163a)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 01:39:49,113 | WARNING | a1e7974e-e942-4477-93bc-cd43ae24982e | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912e845-1d4435150fc7631416e52617;c340ae1c-3554-467d-a157-feacca29462a)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.16s
+2025-11-11 01:39:49,113 | ERROR | a1e7974e-e942-4477-93bc-cd43ae24982e | Fallback activado tras agotar reintentos.
+2025-11-11 01:39:49,115 | WARNING | cebae55b-906d-48d0-b4cd-c0c2d880664e | Simulated error 500
+2025-11-11 02:03:43,355 | INFO | 0c1b6a53-21dc-4498-96ba-c4167c097959 | OK | attempt=1 | latencia=2.40s | tokens\u2248106
+2025-11-11 02:03:43,356 | INFO | MÉTRICAS | p50=2.40s | p95=2.40 | reintentos=0 | fallbacks=0
+2025-11-11 02:04:26,196 | INFO | c25f1388-1fb0-4763-abab-0ae575105928 | OK | attempt=1 | latencia=3.66s | tokens\u2248138
+2025-11-11 02:04:27,808 | INFO | 162aefec-b2cb-4ce2-8de0-b21df318fe0e | OK | attempt=1 | latencia=1.61s | tokens\u2248190
+2025-11-11 02:04:29,109 | INFO | c0b31a91-0883-47dd-b742-a47e48cb14e7 | OK | attempt=1 | latencia=1.30s | tokens\u2248231
+2025-11-11 02:04:32,548 | INFO | 01718718-f5a3-473e-83c6-b0a4cd18a80a | OK | attempt=1 | latencia=3.44s | tokens\u2248406
+2025-11-11 02:04:35,481 | INFO | 7877a354-9bfc-44e1-b4d0-f1839f1cd34a | OK | attempt=1 | latencia=2.93s | tokens\u2248426
+2025-11-11 02:09:28,544 | INFO | b07d7528-a2dc-4611-8051-4d92d3cece7b | OK | attempt=1 | latencia=2.79s | tokens\u2248107
+2025-11-11 02:09:30,232 | INFO | c97af914-7f32-47d0-a4d0-897a8c101132 | OK | attempt=1 | latencia=1.69s | tokens\u2248180
+2025-11-11 02:09:31,348 | INFO | cc24ebc9-ce17-45b1-9f07-2702fc795df8 | OK | attempt=1 | latencia=1.11s | tokens\u2248208
+2025-11-11 02:09:36,034 | INFO | 8c56c0ed-eaa8-4fa3-9116-a41908ee1de8 | OK | attempt=1 | latencia=4.69s | tokens\u2248435
+2025-11-11 02:09:38,490 | INFO | 4d31e786-d334-4226-9b2f-e64e35f52c08 | OK | attempt=1 | latencia=2.45s | tokens\u2248428
+2025-11-11 02:09:50,620 | INFO | 951fcf05-306a-4336-8b83-f12acbc3f395 | OK | attempt=1 | latencia=3.10s | tokens\u2248107
+2025-11-11 02:09:50,621 | INFO | MÉTRICAS | p50=3.10s | p95=3.10 | reintentos=0 | fallbacks=0
+2025-11-11 02:10:03,689 | INFO | 40fde56d-2591-461b-add3-2eb310adec31 | OK | attempt=1 | latencia=2.91s | tokens\u224899
+2025-11-11 02:10:05,393 | INFO | c4a950a5-343e-49dd-b4dc-1755b22af82c | OK | attempt=1 | latencia=1.70s | tokens\u224811
+2025-11-11 02:10:06,328 | INFO | 26967657-7a3f-46b5-a384-e35af8a252fe | OK | attempt=1 | latencia=0.93s | tokens\u224836
+2025-11-11 02:10:06,330 | WARNING | bcedda8d-d1bd-4461-8d7f-1e86e6a43d4c | Simulated error 401
+2025-11-11 02:10:07,420 | INFO | 18d00187-a20f-4e14-bb4c-a4220f1b07fe | OK | attempt=1 | latencia=1.09s | tokens\u224839
+2025-11-11 02:10:08,860 | INFO | 9cf3b6e2-3d03-4984-a696-eb427bca01ea | OK | attempt=1 | latencia=1.44s | tokens\u224888
+2025-11-11 02:10:10,564 | INFO | 743c8f90-caca-4970-a89e-504161ac0b80 | OK | attempt=1 | latencia=1.70s | tokens\u2248155
+2025-11-11 02:10:13,764 | INFO | 4502c5e8-1505-4b99-9bf6-d2e263f491a0 | OK | attempt=1 | latencia=3.20s | tokens\u2248319
+2025-11-11 02:10:17,275 | INFO | c7f5f93d-3405-4d28-a81e-e806c83b9b0c | OK | attempt=1 | latencia=3.51s | tokens\u2248494
+2025-11-11 02:10:20,918 | INFO | 9205ed35-1c53-434a-afd1-54d93ef91dbb | OK | attempt=1 | latencia=3.64s | tokens\u2248661
+2025-11-11 02:10:25,070 | INFO | 19470296-9978-4bc3-a251-c022fe09a6f3 | OK | attempt=1 | latencia=4.15s | tokens\u2248870
+2025-11-11 02:10:29,816 | INFO | f91ffab9-78d3-4bcd-93a9-9dc228fabdd6 | OK | attempt=1 | latencia=4.75s | tokens\u22481123
+2025-11-11 02:10:34,388 | INFO | f2918257-ea9f-4dcd-83aa-b59e7da2769d | OK | attempt=1 | latencia=4.57s | tokens\u22481321
+2025-11-11 02:10:34,481 | WARNING | 5b386631-0648-4fc3-bbe7-2946667fea95 | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef7a-5b49a2b166ff03c6610c0938;9fcbcf29-ac3f-4480-8544-a9cbe3016a0b)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.09s
+2025-11-11 02:10:35,573 | WARNING | 5b386631-0648-4fc3-bbe7-2946667fea95 | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef7c-67c96714119cfcdd22abe66f;3bba3c41-e8e6-49d4-8a0e-e1992f5bea52)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.09s
+2025-11-11 02:10:37,659 | WARNING | 5b386631-0648-4fc3-bbe7-2946667fea95 | ERROR 5xx (servidor) | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef7e-7f503ac51bcb8f2c32aba8ab;5bad8c1c-12a6-4787-ae45-ad6f22664d75)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:10:37,659 | ERROR | 5b386631-0648-4fc3-bbe7-2946667fea95 | Fallback activado tras agotar reintentos.
+2025-11-11 02:10:37,836 | WARNING | 02b28517-0a7f-4ed0-a5f5-c20e44a2d815 | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef7e-4c4dc80e775fd44a74d6c204;5383740f-6c68-4536-aab6-cddc25d5778c)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:10:38,920 | WARNING | 02b28517-0a7f-4ed0-a5f5-c20e44a2d815 | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef7f-369dbb73115c43ae587aad75;7f12a6eb-edd8-4d52-a361-2705b79fe6c8)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:10:41,001 | WARNING | 02b28517-0a7f-4ed0-a5f5-c20e44a2d815 | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef81-694f003701069fc46f71b5a0;7f76f5f6-d469-4519-bebd-0bd98237ee12)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:10:41,001 | ERROR | 02b28517-0a7f-4ed0-a5f5-c20e44a2d815 | Fallback activado tras agotar reintentos.
+2025-11-11 02:10:41,080 | WARNING | 8dec0a90-858e-40ae-a7ca-6e9f44d772e2 | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef81-386461cc634b13d15d8ec53f;aba7826d-232f-4e4e-9b0a-1a711cb314ae)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:10:42,165 | WARNING | 8dec0a90-858e-40ae-a7ca-6e9f44d772e2 | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef82-577d8a170c4e1268142e2441;df387894-063c-4093-9ff4-6e4ee375fb94)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.09s
+2025-11-11 02:10:44,319 | WARNING | 8dec0a90-858e-40ae-a7ca-6e9f44d772e2 | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef84-7d8a676e33a2f31b3aa96cb3;7f643452-9d23-4c6f-b250-e51943bf792c)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.15s
+2025-11-11 02:10:44,319 | ERROR | 8dec0a90-858e-40ae-a7ca-6e9f44d772e2 | Fallback activado tras agotar reintentos.
+2025-11-11 02:10:44,406 | WARNING | 8aedd741-9c2c-42b5-a6b1-ad5c8b5aa1d4 | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef84-6ef724225e117f167fd4a5c2;ff05ef29-3ea0-46c0-aaea-1a071ef42c90)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.09s
+2025-11-11 02:10:45,494 | WARNING | 8aedd741-9c2c-42b5-a6b1-ad5c8b5aa1d4 | ERROR 4xx (cliente) | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef85-1422bf4010996c852cdf32f0;b5efbb0f-1198-440c-b14d-dba3869b6f44)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.09s
+2025-11-11 02:10:47,641 | WARNING | 8aedd741-9c2c-42b5-a6b1-ad5c8b5aa1d4 | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef88-6d67549c795d82fe22a38459;f01a8dab-44ae-41f5-b09f-54f097a3134d)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.15s
+2025-11-11 02:10:47,641 | ERROR | 8aedd741-9c2c-42b5-a6b1-ad5c8b5aa1d4 | Fallback activado tras agotar reintentos.
+2025-11-11 02:10:47,719 | WARNING | 52d1c152-3d8d-448d-9d07-37ffb4805a1b | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef88-0d6bca26191334ac24e4f763;d6431b44-fb71-49b7-9a90-5f3080e0415b)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:10:48,799 | WARNING | 52d1c152-3d8d-448d-9d07-37ffb4805a1b | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef89-424c03347a4a987f10ba6b15;675f4d4b-226b-4a34-a767-43224c794687)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:10:50,951 | WARNING | 52d1c152-3d8d-448d-9d07-37ffb4805a1b | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef8b-0d5cca454362dfde5977d974;e173e9f2-f486-4763-8830-ea0e807f8073)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.15s
+2025-11-11 02:10:50,951 | ERROR | 52d1c152-3d8d-448d-9d07-37ffb4805a1b | Fallback activado tras agotar reintentos.
+2025-11-11 02:10:51,038 | WARNING | c1c12ea3-b053-477f-918f-e7ad21553821 | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef8b-611f2027132e73ef690434a1;58e04e6b-ccde-4b3d-b029-db21bed08a32)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:10:52,122 | WARNING | c1c12ea3-b053-477f-918f-e7ad21553821 | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef8c-57c26c5b2a03e0d808a01abf;30effa7e-96c3-4f0a-b234-e7ec059199f9)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:10:54,201 | WARNING | c1c12ea3-b053-477f-918f-e7ad21553821 | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912ef8e-386d76860235d143425d3dac;8bbef385-f794-4a5e-bbb0-bb3633c51a37)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:10:54,201 | ERROR | c1c12ea3-b053-477f-918f-e7ad21553821 | Fallback activado tras agotar reintentos.
+2025-11-11 02:10:54,203 | WARNING | bae0fda1-29ee-4931-b4b9-309391c44f3a | Simulated error 500
+2025-11-11 02:11:13,423 | WARNING | 8c18cd17-3d55-4496-9f79-5d82370efde5 | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efa1-44c084676edc25163d6fef2d;8dc1f6df-5b87-41f9-887d-2c03ff00a722)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.76s
+2025-11-11 02:11:17,236 | INFO | 8c18cd17-3d55-4496-9f79-5d82370efde5 | OK | attempt=2 | latencia=2.81s | tokens\u2248131
+2025-11-11 02:11:18,172 | INFO | 0dc29403-bf51-4ddc-bfc5-c87136976741 | OK | attempt=1 | latencia=0.93s | tokens\u224813
+2025-11-11 02:11:18,951 | INFO | 9409da82-65b0-4a89-a396-35ce44bea37d | OK | attempt=1 | latencia=0.78s | tokens\u224829
+2025-11-11 02:11:18,953 | WARNING | 437cc84b-dc63-4241-bdb5-720fd12e5d6a | Simulated error 401
+2025-11-11 02:11:20,277 | INFO | 3110b0d1-8049-4442-a441-b3167cf1bae0 | OK | attempt=1 | latencia=1.32s | tokens\u224832
+2025-11-11 02:11:21,359 | INFO | 82e155a2-3dd6-4e0c-ba8a-04b158cca682 | OK | attempt=1 | latencia=1.08s | tokens\u224872
+2025-11-11 02:11:22,765 | INFO | dc80dde4-ccbd-4668-be73-498a6c11ecc5 | OK | attempt=1 | latencia=1.41s | tokens\u2248118
+2025-11-11 02:11:24,341 | INFO | 26387ffe-389a-42ba-8ab6-5dc30474e08e | OK | attempt=1 | latencia=1.58s | tokens\u2248189
+2025-11-11 02:11:27,272 | INFO | cb4838b0-5f9b-47b8-ba5b-46eafaa16cd6 | OK | attempt=1 | latencia=2.93s | tokens\u2248351
+2025-11-11 02:11:31,377 | INFO | c674a286-2f45-4ac2-96ea-1a8d428a641f | OK | attempt=1 | latencia=4.10s | tokens\u2248548
+2025-11-11 02:11:38,166 | INFO | ceacc5ac-5589-46d8-ae44-d948d9f8ff06 | OK | attempt=1 | latencia=6.79s | tokens\u2248898
+2025-11-11 02:11:43,990 | INFO | 1832df38-6ef8-4b3b-ba3c-7ddd20742bd6 | OK | attempt=1 | latencia=5.82s | tokens\u22481242
+2025-11-11 02:11:50,900 | INFO | 0be4f47d-220d-449f-b488-a06090f4a88d | OK | attempt=1 | latencia=6.91s | tokens\u22481579
+2025-11-11 02:11:51,054 | WARNING | 2dcda4f0-80ee-404e-95ca-4d578195306b | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efc7-770e40675cbf0dae5743d3f9;84545ea5-00c6-495f-9dc1-217d0f760d8a)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.15s
+2025-11-11 02:11:52,215 | WARNING | 2dcda4f0-80ee-404e-95ca-4d578195306b | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efc8-1f381147010dedf106338ce7;7605d969-8819-408b-9e16-0ad96cd406e3)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.16s
+2025-11-11 02:11:54,316 | WARNING | 2dcda4f0-80ee-404e-95ca-4d578195306b | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efca-59274c6f1fa14a5f61e1049f;20c375a3-d449-49ad-8a9d-3b3a204642ed)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.10s
+2025-11-11 02:11:54,316 | ERROR | 2dcda4f0-80ee-404e-95ca-4d578195306b | Fallback activado tras agotar reintentos.
+2025-11-11 02:11:54,518 | WARNING | 0f124b74-3c6f-4343-bf59-21d624d73967 | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efca-231f516f1a99eb147281c35b;8f3261a6-63a8-4f78-93b4-0216772c8ea8)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.11s
+2025-11-11 02:11:55,601 | WARNING | 0f124b74-3c6f-4343-bf59-21d624d73967 | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efcc-2dedffb46b889903728550f0;1600dfb6-3c0b-4ae3-9e12-80446f46d063)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:11:57,798 | WARNING | 0f124b74-3c6f-4343-bf59-21d624d73967 | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efce-23fa4c6e089fa5521a95dd64;4216fab7-2291-4c16-8c6f-25a9c2066de9)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.20s
+2025-11-11 02:11:57,798 | ERROR | 0f124b74-3c6f-4343-bf59-21d624d73967 | Fallback activado tras agotar reintentos.
+2025-11-11 02:11:58,010 | WARNING | 9819742e-ed45-4cd9-92b8-89fd49075651 | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efce-757693f87dc0bdc00aea6b68;aed6dd15-df01-44e5-bb4a-772348432677)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.21s
+2025-11-11 02:11:59,099 | WARNING | 9819742e-ed45-4cd9-92b8-89fd49075651 | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efcf-00af17a27f42cfd063a16540;861f1c23-995d-4ea2-b6a1-d64bb2c06130)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.09s
+2025-11-11 02:12:01,177 | WARNING | 9819742e-ed45-4cd9-92b8-89fd49075651 | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efd1-5f1ee91d20ba14b4704d4a4b;fee8cf77-c54b-43c6-96e0-91474ae0f262)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:12:01,177 | ERROR | 9819742e-ed45-4cd9-92b8-89fd49075651 | Fallback activado tras agotar reintentos.
+2025-11-11 02:12:01,253 | WARNING | c87330cc-1588-4238-bca1-961732e34381 | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efd1-1766bb8507ba3b1146d54ad7;93a3f3d4-916e-4092-9fa1-6fc6b92debf4)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:12:02,332 | WARNING | c87330cc-1588-4238-bca1-961732e34381 | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efd2-7932b7436f4f231b3ba74c46;a2e135d1-c791-4cc5-b029-6d6190d097cc)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:12:04,415 | WARNING | c87330cc-1588-4238-bca1-961732e34381 | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efd4-565918c5143016ea1de746a3;a01e8735-a075-4dca-9ebf-1eae6fa00f7c)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:12:04,415 | ERROR | c87330cc-1588-4238-bca1-961732e34381 | Fallback activado tras agotar reintentos.
+2025-11-11 02:12:04,497 | WARNING | 730dab7b-df4b-48a4-a773-05672fd9cead | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efd4-3460a51a6d0cd11e544099a5;e4b51aab-ba6c-48a5-b022-0569434a1c6e)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:12:05,576 | WARNING | 730dab7b-df4b-48a4-a773-05672fd9cead | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efd6-21cc10740eb301580e12f0c2;cf59326c-376c-43dd-af88-1778ab9b0f6f)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:12:07,717 | WARNING | 730dab7b-df4b-48a4-a773-05672fd9cead | ERROR 5xx (servidor) | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efd8-3749fc4d73e17c3515ba500b;e0dfe012-997a-46d5-bbbe-ae0a7a4763f8)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.14s
+2025-11-11 02:12:07,717 | ERROR | 730dab7b-df4b-48a4-a773-05672fd9cead | Fallback activado tras agotar reintentos.
+2025-11-11 02:12:07,802 | WARNING | a815a4d2-01b7-4eae-8dfb-86ebdad25d5f | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efd8-2577b7f97bdcc2274787017d;44f2c6f9-8b2e-4512-95dc-03e4f76a6971)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:12:08,882 | WARNING | a815a4d2-01b7-4eae-8dfb-86ebdad25d5f | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efd9-5714d45451baa5c349a1a2e6;c8cfd9d7-b89f-41b2-9421-4d30caefb2ad)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:12:10,968 | WARNING | a815a4d2-01b7-4eae-8dfb-86ebdad25d5f | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912efdb-4c2de4a661c280d741a67e84;ad816766-eb7d-49ad-948d-edc21eff56d8)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:12:10,968 | ERROR | a815a4d2-01b7-4eae-8dfb-86ebdad25d5f | Fallback activado tras agotar reintentos.
+2025-11-11 02:12:10,970 | WARNING | 7e762d60-1cb0-42c9-aada-c53ee530cb5f | Simulated error 500
+2025-11-11 02:12:49,705 | INFO | ff4cb7f0-3859-41e6-8a2a-63da846b8106 | OK | attempt=1 | latencia=2.86s | tokens\u2248131
+2025-11-11 02:12:50,580 | INFO | 8d2c8552-db92-4689-ac68-4766dfb46516 | OK | attempt=1 | latencia=0.87s | tokens\u224813
+2025-11-11 02:12:51,327 | INFO | 52c2230d-f67d-4ec1-8c79-9d523c49835e | OK | attempt=1 | latencia=0.75s | tokens\u224830
+2025-11-11 02:12:51,328 | WARNING | d86c11b9-000c-4964-bb0c-a344e9d509a1 | Simulated error 401
+2025-11-11 02:12:52,439 | INFO | 092dfb7e-b087-48e7-9db5-7a39391bcd58 | OK | attempt=1 | latencia=1.11s | tokens\u224829
+2025-11-11 02:12:53,549 | INFO | 4e5692ff-7345-48b4-9568-b951037a5603 | OK | attempt=1 | latencia=1.11s | tokens\u224862
+2025-11-11 02:12:54,855 | INFO | 0d5eb1e7-8766-4b46-b2fd-271a1cf2fa90 | OK | attempt=1 | latencia=1.31s | tokens\u2248117
+2025-11-11 02:12:56,726 | INFO | 68bd2ab0-5191-4877-bdb5-0f769bc2658b | OK | attempt=1 | latencia=1.87s | tokens\u2248186
+2025-11-11 02:12:58,913 | INFO | 58d7db86-7a58-44b8-abb7-9485a8bdbbc0 | OK | attempt=1 | latencia=2.19s | tokens\u2248273
+2025-11-11 02:13:02,252 | INFO | 8e702db5-464e-4b49-947a-2157e439d95d | OK | attempt=1 | latencia=3.34s | tokens\u2248453
+2025-11-11 02:13:06,692 | INFO | b71c98f6-17ae-4d0c-ad11-bd2b43746ff7 | OK | attempt=1 | latencia=4.44s | tokens\u2248712
+2025-11-11 02:13:12,559 | INFO | 74868235-dbad-453e-907f-f55006d06fbe | OK | attempt=1 | latencia=5.87s | tokens\u22481031
+2025-11-11 02:13:18,897 | INFO | 2731f230-bc9e-413b-87fb-8b3cb81479dd | OK | attempt=1 | latencia=6.34s | tokens\u22481361
+2025-11-11 02:13:18,986 | WARNING | f5b41c15-c666-4aba-9856-9b206b6336a4 | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912f01f-3303f9fa755405437fe2561b;5b741894-0eb6-456d-b364-c64a9ed62033)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.09s
+2025-11-11 02:13:20,079 | WARNING | f5b41c15-c666-4aba-9856-9b206b6336a4 | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912f020-0a8c096659e9e8e83542252d;9d2051e1-7ed2-4d2b-a0ce-fb5292c9ab18)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.09s
+2025-11-11 02:13:22,303 | WARNING | f5b41c15-c666-4aba-9856-9b206b6336a4 | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912f022-7b5f7b97378c886f24164878;f202d739-c2e5-4650-bd90-3d4db256f4c2)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.22s
+2025-11-11 02:13:22,304 | ERROR | f5b41c15-c666-4aba-9856-9b206b6336a4 | Fallback activado tras agotar reintentos.
+2025-11-11 02:13:22,482 | WARNING | 0305ca97-5140-4157-be1d-79c7a7c074ae | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912f022-6fe2816252976cdd72efa514;2f6cd679-31d6-46ee-846b-7219c48c5c0a)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:13:23,568 | WARNING | 0305ca97-5140-4157-be1d-79c7a7c074ae | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912f024-555876046adf1c3656a004a7;9cdbf27e-14ad-481a-9c02-0987bf14d42e)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.09s
+2025-11-11 02:13:25,654 | WARNING | 0305ca97-5140-4157-be1d-79c7a7c074ae | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912f026-442726bc066af7450772cde1;f6935c84-0f8f-4ba1-a370-713d992db000)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:13:25,654 | ERROR | 0305ca97-5140-4157-be1d-79c7a7c074ae | Fallback activado tras agotar reintentos.
+2025-11-11 02:13:25,800 | WARNING | 20e772a3-f56e-4929-8c50-516a5ede99b0 | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912f026-0607c73e29db199a7a619635;662ffcc8-ca82-41e3-9999-c53528f317e1)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.15s
+2025-11-11 02:13:26,946 | WARNING | 20e772a3-f56e-4929-8c50-516a5ede99b0 | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912f027-6e8eda2a13f1d1fa1dce8018;a29bb419-7300-45dd-af7b-dac2dc2deba7)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.15s
+2025-11-11 02:13:29,026 | WARNING | 20e772a3-f56e-4929-8c50-516a5ede99b0 | ERROR otro | attempt=3 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912f029-241def4d2edb32a52d5a37c6;a14421bb-dff0-4f28-a3d4-f59f936b8ed1)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:13:29,026 | ERROR | 20e772a3-f56e-4929-8c50-516a5ede99b0 | Fallback activado tras agotar reintentos.
+2025-11-11 02:13:29,110 | WARNING | 4389b575-84a6-4a36-b451-59791656451c | ERROR otro | attempt=1 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912f029-4831931f59df4cc574ceada9;f55ac2ba-8e58-471e-9587-9f80159047f9)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.08s
+2025-11-11 02:13:30,196 | WARNING | 4389b575-84a6-4a36-b451-59791656451c | ERROR otro | attempt=2 | detalle=402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6912f02a-6d7521474bae5e6a0f56e0ad;6fd86c54-7e69-4e84-b98c-268be935f29c)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits. | latencia=0.09s
+2025-11-11 02:13:33,026 | INFO | 4389b575-84a6-4a36-b451-59791656451c | OK | attempt=3 | latencia=0.83s | tokens\u224854
+2025-11-11 02:13:33,807 | INFO | b0caca6e-051f-4d53-8367-cbaaa2edf91d | OK | attempt=1 | latencia=0.78s | tokens\u224873
+2025-11-11 02:13:36,425 | INFO | 0d0d955e-b170-44a7-b1d5-7a38c8f71035 | OK | attempt=1 | latencia=2.62s | tokens\u2248132
+2025-11-11 02:13:36,426 | WARNING | c51a3b36-da99-40f5-84c5-01bdfd98e6e9 | Simulated error 500
+2025-11-11 02:20:48,973 | INFO | a828ad34-8833-40f6-95f8-980664c87e83 | OK | attempt=1 | latencia=2.37s | tokens\u2248118
+2025-11-11 02:20:49,777 | INFO | 7beeadde-01a5-48b6-8aa1-884a0c1c0fc9 | OK | attempt=1 | latencia=0.80s | tokens\u224814
+2025-11-11 02:20:50,596 | INFO | 827d15d3-b6f1-4443-944b-b963f54abd58 | OK | attempt=1 | latencia=0.82s | tokens\u224833
+2025-11-11 02:20:51,899 | INFO | d9d84ec1-2bd6-4f10-9d5f-b533f32ef36e | OK | attempt=1 | latencia=1.30s | tokens\u224833
+2025-11-11 02:20:53,422 | INFO | b75a2cd4-9678-4e8d-83b3-d0319f171b97 | OK | attempt=1 | latencia=1.52s | tokens\u224885
+2025-11-11 02:20:54,514 | INFO | 553d402d-5f23-46e9-827e-1cfb3b64cbae | OK | attempt=1 | latencia=1.09s | tokens\u2248121
+2025-11-11 02:20:55,845 | INFO | 0802a989-a73b-46e4-aaf9-e0c1f851fba3 | OK | attempt=1 | latencia=1.33s | tokens\u2248173
+2025-11-11 02:20:57,233 | INFO | c925737c-3e89-4ab2-91da-63d772d57949 | OK | attempt=1 | latencia=1.39s | tokens\u2248220
+2025-11-11 02:20:59,238 | INFO | 58ddab28-6222-4b08-866b-441fe731e216 | OK | attempt=1 | latencia=2.00s | tokens\u2248302
+2025-11-11 02:21:01,664 | INFO | 040859ce-7a4a-4725-92ab-446e876cee7e | OK | attempt=1 | latencia=2.43s | tokens\u2248434
+2025-11-11 02:21:05,142 | INFO | 52e00a70-7dfa-4854-9a28-fd188211f425 | OK | attempt=1 | latencia=3.48s | tokens\u2248570
+2025-11-11 02:21:07,050 | INFO | 9f15a1e7-2930-48f0-b8e3-a93f63894148 | OK | attempt=1 | latencia=1.91s | tokens\u2248646
+2025-11-11 02:21:08,460 | INFO | b784a034-57b4-44e3-b8ab-8d5b48e3a601 | OK | attempt=1 | latencia=1.41s | tokens\u2248697
+2025-11-11 02:21:09,311 | INFO | 30972b23-5f15-4e9a-9a2c-81aedbf6ec35 | OK | attempt=1 | latencia=0.85s | tokens\u224821
+2025-11-11 02:21:10,557 | INFO | 5d6b37eb-0ad3-4999-b44b-e069433bd099 | OK | attempt=1 | latencia=1.25s | tokens\u224873
+2025-11-11 02:21:11,740 | INFO | 8ef4efcd-77d1-49ad-bc20-dace13e2958f | OK | attempt=1 | latencia=1.18s | tokens\u2248108
+2025-11-11 02:21:13,066 | INFO | 0507c007-5968-4a44-9351-4bc09d01aa75 | OK | attempt=1 | latencia=1.33s | tokens\u2248141
+2025-11-11 02:21:15,406 | INFO | 976eaa7b-ad5a-438c-a756-7448d4b3c9fa | OK | attempt=1 | latencia=2.34s | tokens\u2248103
+2025-11-11 02:21:30,927 | INFO | 56ede746-208b-4db5-bd3d-f2443dc5fa4d | OK | attempt=1 | latencia=3.03s | tokens\u2248132
+2025-11-11 02:21:32,266 | INFO | c6f804e6-cdf8-4cbe-92a2-f6bb532d1ef4 | OK | attempt=1 | latencia=1.34s | tokens\u2248176
+2025-11-11 02:21:33,536 | INFO | b79589c4-d6cb-4494-90ee-989fb59eca6a | OK | attempt=1 | latencia=1.27s | tokens\u2248209
+2025-11-11 02:21:37,501 | INFO | 954b1686-2f6c-4311-b03f-6254147a47e1 | OK | attempt=1 | latencia=3.96s | tokens\u2248426
+2025-11-11 02:27:50,001 | INFO | a7a9cfd1-43fa-4d60-8f92-d93af3ca9046 | OK | attempt=1 | latencia=2.86s | tokens\u2248117
+2025-11-11 02:27:50,878 | INFO | f8efd18e-cbb7-4b79-8eab-b1fffb0ad0e5 | OK | attempt=1 | latencia=0.87s | tokens\u224821
+2025-11-11 02:27:51,991 | INFO | 0b89f565-4ad0-4d79-951f-d7147e9c702a | OK | attempt=1 | latencia=1.11s | tokens\u224840
+2025-11-11 02:27:53,108 | INFO | a100a2a6-da93-4be3-8df4-c4d816c1e01a | OK | attempt=1 | latencia=1.11s | tokens\u224830
+2025-11-11 02:27:54,331 | INFO | 9e68a90c-3605-4bed-905e-345a18513cf3 | OK | attempt=1 | latencia=1.22s | tokens\u224882
+2025-11-11 02:27:55,774 | INFO | b1ce99d9-ed01-460d-856e-108a92f4e09d | OK | attempt=1 | latencia=1.44s | tokens\u2248151
+2025-11-11 02:27:57,544 | INFO | 0248c078-86d2-4572-a925-d20e81c5194e | OK | attempt=1 | latencia=1.77s | tokens\u2248232
+2025-11-11 02:27:59,071 | INFO | bc053b5d-8ee5-41e5-b387-ad5b87efbb31 | OK | attempt=1 | latencia=1.53s | tokens\u2248298
+2025-11-11 02:28:00,732 | INFO | a3175b2b-b4b1-49e2-9cae-42e48281229c | OK | attempt=1 | latencia=1.66s | tokens\u2248375
+2025-11-11 02:28:02,924 | INFO | 54677143-dde6-423d-8e37-4f16f1cec72b | OK | attempt=1 | latencia=2.19s | tokens\u2248480
+2025-11-11 02:28:06,767 | INFO | 2c384667-5cf8-46cd-9fd6-db9dd9d2adcc | OK | attempt=1 | latencia=3.84s | tokens\u2248644
+2025-11-11 02:28:10,104 | INFO | 89f54c20-2338-4e97-93d0-274ad9610afe | OK | attempt=1 | latencia=3.34s | tokens\u2248769
+2025-11-11 02:28:10,996 | INFO | 108c36a5-0dc2-440a-9d46-51fb90056637 | OK | attempt=1 | latencia=0.89s | tokens\u2248782
+2025-11-11 02:28:12,570 | INFO | 1d9ccd78-0343-49e8-a9ef-6f52a9dbbd4f | OK | attempt=1 | latencia=1.57s | tokens\u224848
+2025-11-11 02:28:14,958 | INFO | 437740f2-2dfc-4ddf-8ce8-a92f0fb58215 | OK | attempt=1 | latencia=2.39s | tokens\u2248161
+2025-11-11 02:28:18,006 | INFO | 68c58c6f-0a00-4d74-94d1-103322fb0051 | OK | attempt=1 | latencia=3.05s | tokens\u2248335
+2025-11-11 02:28:18,806 | INFO | 3cd60177-b8d1-4c71-9233-fab3caaada85 | OK | attempt=1 | latencia=0.80s | tokens\u2248354
+2025-11-11 02:28:20,972 | INFO | 66fb6342-745d-4309-a031-342806efa134 | OK | attempt=1 | latencia=2.16s | tokens\u2248103
+2025-11-11 02:39:04,351 | INFO | afed8c4a-f08b-4026-8e9e-9936118052b4 | OK | attempt=1 | latencia=2.22s | tokens\u224891
+2025-11-11 02:39:05,355 | INFO | ff93c6ea-20dc-4352-aab4-506c7b8c020a | OK | attempt=1 | latencia=1.00s | tokens\u224813
+2025-11-11 02:39:06,302 | INFO | d59782fb-4405-42e9-8c2a-50078db8f1ca | OK | attempt=1 | latencia=0.95s | tokens\u224831
+2025-11-11 02:39:07,692 | INFO | 1f623506-ec5d-459d-9331-d584742537d8 | OK | attempt=1 | latencia=1.39s | tokens\u224847
+2025-11-11 02:39:09,646 | INFO | 47a65428-b400-4b5a-96a5-c4eb90c3190c | OK | attempt=1 | latencia=1.95s | tokens\u2248123
+2025-11-11 02:39:11,271 | INFO | 0211b5f8-a36d-4bc3-ba42-457cac1f982a | OK | attempt=1 | latencia=1.62s | tokens\u2248190
+2025-11-11 02:39:14,119 | INFO | 7b56a2a1-3d66-4661-92f3-0e6de7589b0f | OK | attempt=1 | latencia=2.85s | tokens\u2248313
+2025-11-11 02:39:17,296 | INFO | e884d3b6-a987-47bb-b90b-d5cc146ee81d | OK | attempt=1 | latencia=3.18s | tokens\u2248451
+2025-11-11 02:39:20,955 | INFO | 9f380570-f97d-49d8-ab56-e344013babc8 | OK | attempt=1 | latencia=3.66s | tokens\u2248610
+2025-11-11 02:39:24,462 | INFO | 84ec1bb4-9b9e-4473-81c8-0ef8f03881df | OK | attempt=1 | latencia=3.51s | tokens\u2248747
+2025-11-11 02:39:27,142 | INFO | deb8f446-91c5-40c6-a3ad-bb1e0a9e4bbf | OK | attempt=1 | latencia=2.68s | tokens\u2248876
+2025-11-11 02:39:29,739 | INFO | c86277f5-bfca-4885-90c8-a991ccb03e5f | OK | attempt=1 | latencia=2.60s | tokens\u2248985
+2025-11-11 02:39:29,925 | INFO | 3eacd57d-5248-4a4e-9a54-d811762caa90 | OK | attempt=1 | latencia=0.00s | tokens\u224810
+2025-11-11 02:39:29,928 | INFO | d619b8f9-3756-49e4-8de0-f7a831114620 | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 02:51:14,764 | INFO | 18d415c2-fbb4-4d5e-ad8e-e4092d272d10 | OK | attempt=1 | latencia=2.17s | tokens\u2248102
+2025-11-11 02:51:15,693 | INFO | 131d52ea-86f7-45da-a969-b70f5fbe7415 | OK | attempt=1 | latencia=0.92s | tokens\u224811
+2025-11-11 02:51:16,474 | INFO | 9a6c44de-68e6-4aca-aa90-d47d81eb9141 | OK | attempt=1 | latencia=0.78s | tokens\u224827
+2025-11-11 02:51:17,569 | INFO | 32ac634b-f6f4-47b1-8896-eeb26c8f3a31 | OK | attempt=1 | latencia=1.09s | tokens\u224832
+2025-11-11 02:51:18,678 | INFO | 9730198e-2192-44f1-9531-8878ad9a2f38 | OK | attempt=1 | latencia=1.11s | tokens\u224867
+2025-11-11 02:51:19,928 | INFO | 38e88879-f1fc-4d27-84b9-399366200da0 | OK | attempt=1 | latencia=1.25s | tokens\u2248112
+2025-11-11 02:51:21,118 | INFO | bea45f49-377d-4c25-a831-5bbbd0856453 | OK | attempt=1 | latencia=1.19s | tokens\u2248154
+2025-11-11 02:51:22,322 | INFO | 61fdee79-0a1f-4c15-8c0b-fbd4117223a2 | OK | attempt=1 | latencia=1.20s | tokens\u2248202
+2025-11-11 02:51:23,689 | INFO | 965462e5-a168-48f5-8ecc-f32488bdc0cd | OK | attempt=1 | latencia=1.37s | tokens\u2248259
+2025-11-11 02:51:25,458 | INFO | 746aee81-01b1-4ae6-a454-90b27b01939c | OK | attempt=1 | latencia=1.77s | tokens\u2248324
+2025-11-11 02:51:27,219 | INFO | 32d35d39-7975-4e27-ac0c-20b96413b849 | OK | attempt=1 | latencia=1.76s | tokens\u2248392
+2025-11-11 02:51:29,090 | INFO | 6c9b3756-1ae3-46a2-a90c-4f8779d56898 | OK | attempt=1 | latencia=1.87s | tokens\u2248452
+2025-11-11 02:51:29,173 | INFO | eaeaa944-f92a-447f-ac16-e800ffde2633 | OK | attempt=1 | latencia=0.00s | tokens\u224810
+2025-11-11 02:51:29,174 | INFO | cf61e228-9434-4d60-8d9a-5063fdb97e5d | OK | attempt=1 | latencia=0.00s | tokens\u224822
+2025-11-11 02:51:29,174 | INFO | 81cdbfff-3a7d-4130-a156-607bcac26057 | OK | attempt=1 | latencia=0.00s | tokens\u224835
+2025-11-11 02:51:29,174 | INFO | e7c59f74-fecf-484d-afc2-10bd1dbca205 | OK | attempt=1 | latencia=0.00s | tokens\u224846
+2025-11-11 02:51:29,267 | INFO | c3869e57-fd39-4d06-a2f8-ace2744461f9 | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 02:52:01,425 | INFO | 243ef366-1069-41ac-b2e2-3130c95157bc | OK | attempt=1 | latencia=0.00s | tokens\u224810
+2025-11-11 02:52:01,425 | INFO | a8a33850-b0e5-431f-a6e0-c0765aedae07 | OK | attempt=1 | latencia=0.00s | tokens\u224821
+2025-11-11 02:52:01,524 | INFO | b3d573e7-af80-4def-b5f0-639d811624c5 | OK | attempt=1 | latencia=0.00s | tokens\u224812
+2025-11-11 02:52:01,524 | INFO | 42dd9ab8-8fab-4a55-a20d-8fe1e8afdca1 | OK | attempt=1 | latencia=0.00s | tokens\u224822
+2025-11-11 02:52:01,524 | INFO | 95ce4d05-522b-427d-bdc1-2acf0aad608c | OK | attempt=1 | latencia=0.00s | tokens\u224832
+2025-11-11 02:52:01,524 | INFO | d69587e1-eee1-4eae-bc77-7cf1cade092e | OK | attempt=1 | latencia=0.00s | tokens\u224842
+2025-11-11 02:52:01,524 | INFO | bdfbebab-e778-4163-ab93-44e0fe87b237 | OK | attempt=1 | latencia=0.00s | tokens\u224852
+2025-11-11 02:52:01,524 | INFO | 6ebe06fd-7d06-4e1d-8441-a92f90158ce1 | OK | attempt=1 | latencia=0.00s | tokens\u224862
+2025-11-11 02:52:01,525 | INFO | d97e2d63-a6d2-492d-828d-17fd95f1cafe | OK | attempt=1 | latencia=0.00s | tokens\u224872
+2025-11-11 02:52:01,525 | INFO | 71985707-67f4-4691-a2b5-f27bd95e395f | OK | attempt=1 | latencia=0.00s | tokens\u224882
+2025-11-11 02:52:01,525 | INFO | 862202ed-910f-4c43-ad2d-91ae370b8426 | OK | attempt=1 | latencia=0.00s | tokens\u224892
+2025-11-11 02:52:01,526 | INFO | 9d10a11e-27ea-47f5-96f4-188f4fc354b8 | OK | attempt=1 | latencia=0.00s | tokens\u2248105
+2025-11-11 02:52:01,527 | INFO | 68c308b7-a7b9-41ea-a702-e5210ee08871 | OK | attempt=1 | latencia=0.00s | tokens\u224810
+2025-11-11 02:52:01,527 | INFO | 1a74c946-00ae-455c-a05c-fff68a969c00 | OK | attempt=1 | latencia=0.00s | tokens\u224822
+2025-11-11 02:52:01,527 | INFO | 72db9e6f-f016-498e-917f-1506c852a593 | OK | attempt=1 | latencia=0.00s | tokens\u224835
+2025-11-11 02:52:01,527 | INFO | 0c816103-d8d9-4ff5-8088-33d27f2b14ff | OK | attempt=1 | latencia=0.00s | tokens\u224846
+2025-11-11 02:52:01,528 | INFO | 30d44fb5-98a1-4e74-9dd9-6e3e82b06daf | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 02:52:08,509 | INFO | 334a207b-ed15-4d9f-ab2a-fbff60ac2e82 | OK | attempt=1 | latencia=0.00s | tokens\u224810
+2025-11-11 02:52:08,510 | INFO | 3751dffc-aa1f-4c31-b8fe-26706bc177c2 | OK | attempt=1 | latencia=0.00s | tokens\u224821
+2025-11-11 02:52:08,606 | INFO | d71eca13-13c5-4cee-9c18-cd8351d0957c | OK | attempt=1 | latencia=0.00s | tokens\u224812
+2025-11-11 02:52:08,606 | INFO | 330921fd-cbce-4732-a408-1ae43d017c06 | OK | attempt=1 | latencia=0.00s | tokens\u224822
+2025-11-11 02:52:08,607 | INFO | 6db681f4-fd7e-4fd4-9e77-55da1af32cba | OK | attempt=1 | latencia=0.00s | tokens\u224832
+2025-11-11 02:52:08,607 | INFO | 052a6e7f-40d8-4917-bcbc-b6d977b50d0a | OK | attempt=1 | latencia=0.00s | tokens\u224842
+2025-11-11 02:52:08,607 | INFO | 5d580d1e-f1d7-4b67-8343-29bd502880e8 | OK | attempt=1 | latencia=0.00s | tokens\u224852
+2025-11-11 02:52:08,607 | INFO | 09c6608c-7445-428f-9e71-43dc87586e1e | OK | attempt=1 | latencia=0.00s | tokens\u224862
+2025-11-11 02:52:08,608 | INFO | d0fa987a-db4e-400a-888a-08bd2ce34b48 | OK | attempt=1 | latencia=0.00s | tokens\u224872
+2025-11-11 02:52:08,608 | INFO | 86606742-3ac4-4717-bd21-0fa9e1b1f647 | OK | attempt=1 | latencia=0.00s | tokens\u224882
+2025-11-11 02:52:08,608 | INFO | 4fcdb964-553c-44fe-a6d0-5a95cf7202e7 | OK | attempt=1 | latencia=0.00s | tokens\u224892
+2025-11-11 02:52:08,608 | INFO | b2a874c0-0be0-488d-aca0-f2bdf59c3348 | OK | attempt=1 | latencia=0.00s | tokens\u2248105
+2025-11-11 02:52:08,609 | INFO | f2178fea-8fa8-48e4-9dce-e52bc0e7d1fc | OK | attempt=1 | latencia=0.00s | tokens\u224810
+2025-11-11 02:52:08,609 | INFO | f71347aa-22a8-4546-a985-e5f8e0cbad70 | OK | attempt=1 | latencia=0.00s | tokens\u224822
+2025-11-11 02:52:08,610 | INFO | 39d86634-4707-464f-b0a9-6d746a0108dd | OK | attempt=1 | latencia=0.00s | tokens\u224835
+2025-11-11 02:52:08,610 | INFO | 9f8a83bf-53a2-4487-9c57-1e1ac31b78f9 | OK | attempt=1 | latencia=0.00s | tokens\u224846
+2025-11-11 02:52:08,611 | INFO | fb3e707c-ecd4-418f-9d0d-f51b1d66d52f | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 03:04:41,304 | INFO | 6819a71d-4755-41dd-a752-c13232c5281a | OK | attempt=1 | latencia=2.76s | tokens\u2248122
+2025-11-11 03:04:42,215 | INFO | ff131caf-4b12-4bc7-af9a-ca473aae00f0 | OK | attempt=1 | latencia=0.90s | tokens\u224811
+2025-11-11 03:04:42,982 | INFO | 39f87f1a-f3e5-4f7e-b22c-53b197eb761a | OK | attempt=1 | latencia=0.77s | tokens\u224827
+2025-11-11 03:04:44,166 | INFO | 2ead726b-ef95-4c71-8af1-52e684c2f557 | OK | attempt=1 | latencia=1.18s | tokens\u224829
+2025-11-11 03:04:45,545 | INFO | a132e804-8160-4a75-93d4-9e815e3494e0 | OK | attempt=1 | latencia=1.38s | tokens\u224884
+2025-11-11 03:04:47,240 | INFO | 74a8b249-81f6-4db2-bbc9-574913652b20 | OK | attempt=1 | latencia=1.69s | tokens\u2248130
+2025-11-11 03:04:49,009 | INFO | 43ed43cc-84c0-450a-bb2e-1faa34537e9b | OK | attempt=1 | latencia=1.77s | tokens\u2248187
+2025-11-11 03:04:51,413 | INFO | 2cfd39bc-782f-4d14-bd4c-dd598f3ec373 | OK | attempt=1 | latencia=2.40s | tokens\u2248311
+2025-11-11 03:04:53,586 | INFO | d837cefc-6a49-4ef4-88ef-448b8fe6778e | OK | attempt=1 | latencia=2.17s | tokens\u2248430
+2025-11-11 03:04:55,418 | INFO | c861cc72-a834-4bfc-844e-da8110e439bc | OK | attempt=1 | latencia=1.83s | tokens\u2248498
+2025-11-11 03:04:56,858 | INFO | f4e817eb-f674-47ee-bcb5-04c817abe5c6 | OK | attempt=1 | latencia=1.44s | tokens\u2248547
+2025-11-11 03:04:58,772 | INFO | fb30f8ce-28df-4e1a-9c27-b016f869abf1 | OK | attempt=1 | latencia=1.91s | tokens\u2248640
+2025-11-11 03:04:58,859 | INFO | 9a22e945-9168-45eb-b2f5-b92e7f3dc7f3 | OK | attempt=1 | latencia=0.00s | tokens\u224810
+2025-11-11 03:04:58,859 | INFO | 6c7a126a-f7d3-4909-a573-2dfdaff3db60 | OK | attempt=1 | latencia=0.00s | tokens\u224822
+2025-11-11 03:04:58,859 | INFO | 84d6793b-7803-4293-bb5d-1c6b7d8b3d02 | OK | attempt=1 | latencia=0.00s | tokens\u224835
+2025-11-11 03:04:58,859 | INFO | 57d2ac88-1b9d-4fc4-a9c4-327abb4192f1 | OK | attempt=1 | latencia=0.00s | tokens\u224846
+2025-11-11 03:04:58,860 | INFO | 44359ffb-40e9-4b51-a0bd-79875188d14b | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 11:51:09,167 | INFO | b39f4776-0b81-4f8c-b14c-cde5ce527cac | OK | attempt=1 | latencia=3.06s | tokens\u2248116
+2025-11-11 11:51:09,959 | INFO | 087aecea-61b5-4d15-bb10-87cf45fcab27 | OK | attempt=1 | latencia=0.79s | tokens\u224814
+2025-11-11 11:51:10,884 | INFO | 6961f098-458a-4bd2-bf29-1e4792b1c849 | OK | attempt=1 | latencia=0.92s | tokens\u224826
+2025-11-11 11:51:11,929 | INFO | 99690b37-55c6-44b2-aee1-ef0a9c310e0a | OK | attempt=1 | latencia=1.04s | tokens\u224834
+2025-11-11 11:51:13,531 | INFO | b63d2c96-caca-431d-809b-e8cfd4e54753 | OK | attempt=1 | latencia=1.60s | tokens\u224886
+2025-11-11 11:51:15,212 | INFO | 14bc65be-3e76-4dc2-874e-476d42b4c2ff | OK | attempt=1 | latencia=1.68s | tokens\u2248154
+2025-11-11 11:51:16,938 | INFO | ffbcf65a-d1ca-4aec-85f5-26afc61b33cd | OK | attempt=1 | latencia=1.73s | tokens\u2248223
+2025-11-11 11:51:18,964 | INFO | 38815688-da2c-4e90-bb47-031904f087bd | OK | attempt=1 | latencia=2.03s | tokens\u2248288
+2025-11-11 11:51:20,848 | INFO | bbc8ae18-e2c8-41b0-8651-fd24a5e39101 | OK | attempt=1 | latencia=1.88s | tokens\u2248369
+2025-11-11 11:51:22,947 | INFO | 79eac388-6283-41aa-8140-46a7c83f6d6c | OK | attempt=1 | latencia=2.10s | tokens\u2248460
+2025-11-11 11:51:24,563 | INFO | 7a64342a-6d95-4e73-a593-b7a730a48f9e | OK | attempt=1 | latencia=1.62s | tokens\u2248529
+2025-11-11 11:51:26,517 | INFO | 4a2e8a51-4f6f-4c42-8845-6a75b45de7cb | OK | attempt=1 | latencia=1.95s | tokens\u2248620
+2025-11-11 11:51:26,606 | INFO | bf22520e-9b5f-4e6d-9bdb-62e9ddc6cdd7 | OK | attempt=1 | latencia=0.00s | tokens\u224810
+2025-11-11 11:51:26,606 | INFO | d5762242-4a0c-4f9f-b143-f5ad6417d60c | OK | attempt=1 | latencia=0.00s | tokens\u224822
+2025-11-11 11:51:26,606 | INFO | ced4ba36-eb8e-4f0c-92b8-4303ff2a5d60 | OK | attempt=1 | latencia=0.00s | tokens\u224835
+2025-11-11 11:51:26,606 | INFO | 26d88905-cbb1-4fb0-b161-d1f76289d4cd | OK | attempt=1 | latencia=0.00s | tokens\u224846
+2025-11-11 11:51:26,607 | INFO | 39ed4fd8-fec3-408e-ad22-b195c3705e4c | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 11:58:28,851 | INFO | 5f441dfd-a701-473f-8f66-d3010977fd21 | OK | attempt=1 | latencia=3.26s | tokens\u2248123
+2025-11-11 11:58:29,721 | INFO | ce70fa48-5d10-406a-b9eb-a7bdfe6ed5f1 | OK | attempt=1 | latencia=0.86s | tokens\u224813
+2025-11-11 11:58:30,713 | INFO | b2cb5aef-8f43-4fd7-8496-b1ebccd32a61 | OK | attempt=1 | latencia=0.99s | tokens\u224832
+2025-11-11 11:58:31,937 | INFO | cc53d803-7f0b-4943-844a-afe90dc69e10 | OK | attempt=1 | latencia=1.22s | tokens\u224847
+2025-11-11 11:58:33,306 | INFO | 91166ea3-1e07-43f3-88a2-15acb6db8978 | OK | attempt=1 | latencia=1.37s | tokens\u2248107
+2025-11-11 11:58:34,975 | INFO | ac430227-9b21-4437-bf4d-b90d0e21b78f | OK | attempt=1 | latencia=1.67s | tokens\u2248185
+2025-11-11 11:58:36,818 | INFO | 30733c80-6e5d-49c2-9c57-fcaff3dd046f | OK | attempt=1 | latencia=1.84s | tokens\u2248272
+2025-11-11 11:58:38,853 | INFO | 1c7fad1b-d585-48ee-b073-9a4789891257 | OK | attempt=1 | latencia=2.04s | tokens\u2248367
+2025-11-11 11:58:41,074 | INFO | d2aae7bc-650f-4a68-8153-3ae1a6727056 | OK | attempt=1 | latencia=2.22s | tokens\u2248465
+2025-11-11 11:58:43,324 | INFO | 22b72fdd-596e-4bb6-852e-a0864a5f5bba | OK | attempt=1 | latencia=2.25s | tokens\u2248542
+2025-11-11 11:58:45,590 | INFO | c85e39e9-eeaf-4cd5-ae16-a5998edc883e | OK | attempt=1 | latencia=2.27s | tokens\u2248633
+2025-11-11 11:58:47,717 | INFO | 11ac50c7-6fcc-4b79-a06a-4728e394fd89 | OK | attempt=1 | latencia=2.13s | tokens\u2248732
+2025-11-11 11:58:47,804 | INFO | eeb722a1-d301-4a4b-b10e-7e8559a03d75 | OK | attempt=1 | latencia=0.00s | tokens\u224810
+2025-11-11 11:58:47,804 | INFO | ac8bd207-6f3f-4057-abc8-5b5c14a2bdd5 | OK | attempt=1 | latencia=0.00s | tokens\u224822
+2025-11-11 11:58:47,805 | INFO | 24cfc382-24c2-4ffa-be37-934e11398c76 | OK | attempt=1 | latencia=0.00s | tokens\u224835
+2025-11-11 11:58:47,805 | INFO | 6c42985a-bb8b-4ab5-a9c5-ae946960cbc0 | OK | attempt=1 | latencia=0.00s | tokens\u224846
+2025-11-11 11:58:47,806 | INFO | 84e7e56b-962b-4aa2-a92b-a32ef55527ad | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 12:13:37,181 | INFO | e3c0d3ba-e2b4-4ddb-9b01-a4781c49d22d | OK | attempt=1 | latencia=2.50s | tokens\u2248115
+2025-11-11 12:13:37,924 | INFO | b756baca-def0-4222-92d3-c033c51ccb30 | OK | attempt=1 | latencia=0.74s | tokens\u224811
+2025-11-11 12:13:38,829 | INFO | 195c0e89-f0d7-4b71-b1e2-7ae964843aaf | OK | attempt=1 | latencia=0.90s | tokens\u224827
+2025-11-11 12:13:39,825 | INFO | f9456f27-f385-42d5-a9a4-0f0317cc9741 | OK | attempt=1 | latencia=0.99s | tokens\u224826
+2025-11-11 12:13:40,700 | INFO | 36ad3914-f44d-4090-9a1a-9304128454b3 | OK | attempt=1 | latencia=0.87s | tokens\u224846
+2025-11-11 12:13:41,774 | INFO | 94bed0cb-c39d-4353-9d1c-2be8158c3365 | OK | attempt=1 | latencia=1.07s | tokens\u224885
+2025-11-11 12:13:43,283 | INFO | 866d9cf2-2878-462f-b501-0e954ea87088 | OK | attempt=1 | latencia=1.51s | tokens\u2248138
+2025-11-11 12:13:45,603 | INFO | be9c5776-d8a7-4496-984e-427237a612f2 | OK | attempt=1 | latencia=2.32s | tokens\u2248248
+2025-11-11 12:13:48,521 | INFO | 51b03f8c-19de-46eb-9567-15d70f0572ae | OK | attempt=1 | latencia=2.92s | tokens\u2248373
+2025-11-11 12:13:55,714 | INFO | 20a0d2cd-c614-4839-a3be-38e03e4629d2 | OK | attempt=1 | latencia=7.19s | tokens\u2248707
+2025-11-11 12:13:57,343 | INFO | 3ccd5ad2-6a13-4e3a-a372-0367e7f9964c | OK | attempt=1 | latencia=1.63s | tokens\u2248751
+2025-11-11 12:13:59,531 | INFO | 6d786337-35da-4482-9cd7-9381c3b72cf0 | OK | attempt=1 | latencia=2.19s | tokens\u2248857
+2025-11-11 12:13:59,620 | INFO | c207184e-14a6-49bc-a689-05928cf29b27 | OK | attempt=1 | latencia=0.00s | tokens\u224820
+2025-11-11 12:13:59,620 | INFO | 6a5892e3-7b91-4042-9630-81ac20889bec | OK | attempt=1 | latencia=0.00s | tokens\u224833
+2025-11-11 12:13:59,620 | INFO | eb90b663-40a9-49a2-a2ed-4403a8113c23 | OK | attempt=1 | latencia=0.00s | tokens\u224844
+2025-11-11 12:13:59,621 | INFO | c6aa70e5-fff7-49bb-bc85-cbeb25762821 | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 12:24:15,885 | INFO | dd632aa6-321b-4fbd-ba4b-ddda45c52d9a | OK | attempt=1 | latencia=3.24s | tokens\u2248119
+2025-11-11 12:24:16,779 | INFO | 47a795a6-2b7d-40a0-81bb-7447071acea9 | OK | attempt=1 | latencia=0.77s | tokens\u224813
+2025-11-11 12:24:17,663 | INFO | c13916ed-899a-42e7-9fbb-6d8a6831ed57 | OK | attempt=1 | latencia=0.88s | tokens\u224826
+2025-11-11 12:24:19,033 | INFO | 592b5a3a-6858-4533-9c76-0b2b7caa0bf3 | OK | attempt=1 | latencia=1.37s | tokens\u224858
+2025-11-11 12:24:20,796 | INFO | 469cf6b0-da79-4a69-bcc7-bbd894aa2d54 | OK | attempt=1 | latencia=1.76s | tokens\u2248105
+2025-11-11 12:24:23,073 | INFO | 09c81d70-1092-4624-ba69-d3a12de29aca | OK | attempt=1 | latencia=2.28s | tokens\u2248183
+2025-11-11 12:24:25,490 | INFO | 713928ba-0df0-4254-a345-834d16e41329 | OK | attempt=1 | latencia=2.42s | tokens\u2248256
+2025-11-11 12:24:29,223 | INFO | ad6e3c7f-57f2-47c9-99d2-2d575d3cc7c0 | OK | attempt=1 | latencia=3.73s | tokens\u2248413
+2025-11-11 12:24:33,853 | INFO | 4f68c0f4-754a-4a64-af77-9d7474358fd7 | OK | attempt=1 | latencia=4.63s | tokens\u2248628
+2025-11-11 12:24:37,931 | INFO | a0255a94-5ebd-4f05-8cf2-834463362176 | OK | attempt=1 | latencia=4.08s | tokens\u2248835
+2025-11-11 12:24:42,818 | INFO | 6671600b-8ce3-43c3-900f-b47b87894370 | OK | attempt=1 | latencia=4.89s | tokens\u22481032
+2025-11-11 12:24:46,788 | INFO | 767343aa-6539-4107-a32e-a256bac316d4 | OK | attempt=1 | latencia=3.97s | tokens\u22481228
+2025-11-11 12:24:46,888 | INFO | d611c793-9be4-466a-9e63-a3a445af6bf5 | OK | attempt=1 | latencia=0.00s | tokens\u224820
+2025-11-11 12:24:46,888 | INFO | d10f58a4-d93e-4321-97e4-249a3c950277 | OK | attempt=1 | latencia=0.00s | tokens\u224833
+2025-11-11 12:24:46,888 | INFO | b4237d48-4bf5-47e7-a35a-db29780d3310 | OK | attempt=1 | latencia=0.00s | tokens\u224844
+2025-11-11 12:24:46,889 | INFO | 3db94a46-5e54-49fe-bc2b-240c994afb6b | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 12:57:46,743 | INFO | 3a0d8038-4771-4ef3-83d9-7c1d4612e693 | OK | attempt=1 | latencia=2.61s | tokens\u2248120
+2025-11-11 12:57:47,770 | INFO | 6fbd90cc-cca8-451b-abc9-d9b910da85ac | OK | attempt=1 | latencia=0.92s | tokens\u224813
+2025-11-11 12:57:48,609 | INFO | 45e8589b-87a9-42dc-9ccb-25ef23da4a1c | OK | attempt=1 | latencia=0.84s | tokens\u224826
+2025-11-11 12:57:49,817 | INFO | 9d552450-be8a-495b-a576-cee076bc7c76 | OK | attempt=1 | latencia=1.21s | tokens\u224830
+2025-11-11 12:57:51,238 | INFO | 6bc9f108-dc5c-4dbd-b75b-da5310bbf91c | OK | attempt=1 | latencia=1.42s | tokens\u224872
+2025-11-11 12:57:53,339 | INFO | 414fe5ff-af6e-428e-ad08-0eb4d4bb6362 | OK | attempt=1 | latencia=2.10s | tokens\u2248128
+2025-11-11 12:57:55,093 | INFO | 6bd60308-bc3b-42c5-9648-e5e9eda98020 | OK | attempt=1 | latencia=1.75s | tokens\u2248201
+2025-11-11 12:57:56,814 | INFO | 8acd6c61-1754-4885-bd19-cb2754004c35 | OK | attempt=1 | latencia=1.72s | tokens\u2248269
+2025-11-11 12:57:59,313 | INFO | 04d6648e-65e8-4c6a-911b-8f0e0702f313 | OK | attempt=1 | latencia=2.50s | tokens\u2248390
+2025-11-11 12:58:03,199 | INFO | 54cb803e-d820-43b5-8840-c4560d21f774 | OK | attempt=1 | latencia=3.89s | tokens\u2248562
+2025-11-11 12:58:06,024 | INFO | 10c31a16-b7bb-48db-ab6c-60e7b72fe3d6 | OK | attempt=1 | latencia=2.82s | tokens\u2248711
+2025-11-11 12:58:09,702 | INFO | 18a4a78a-f88c-44dc-9434-66845bf6d18e | OK | attempt=1 | latencia=3.68s | tokens\u2248919
+2025-11-11 12:58:11,012 | INFO | 0314887f-d422-408b-a0b0-4e4200c486a1 | OK | attempt=1 | latencia=1.31s | tokens\u2248952
+2025-11-11 12:58:12,052 | INFO | 5cbb018e-0f88-4dc1-9a61-82fb0ce60a76 | OK | attempt=1 | latencia=1.04s | tokens\u224846
+2025-11-11 12:58:12,964 | INFO | ce24cf7e-7dc8-4ef2-bace-2e421ab9462e | OK | attempt=1 | latencia=0.91s | tokens\u224871
+2025-11-11 12:58:13,979 | INFO | 6a31a4bf-cc8a-4df2-8b31-4f75ec7ae254 | OK | attempt=1 | latencia=1.01s | tokens\u224891
+2025-11-11 12:58:17,138 | INFO | 6df94572-39d9-442b-81f2-10d5f8481a59 | OK | attempt=1 | latencia=3.16s | tokens\u2248153
+2025-11-11 13:01:34,621 | INFO | e7523f12-e508-4280-8806-7368567d28e5 | OK | attempt=1 | latencia=3.48s | tokens\u2248127
+2025-11-11 13:01:35,641 | INFO | 69a23e18-936b-4305-a2e4-2b186610c882 | OK | attempt=1 | latencia=0.91s | tokens\u224813
+2025-11-11 13:01:36,489 | INFO | 798e5b43-4bc3-45e1-b24a-56218e402d0a | OK | attempt=1 | latencia=0.85s | tokens\u224834
+2025-11-11 13:01:37,797 | INFO | 4fcd9997-0534-4858-94a0-79a3e0a8b0fc | OK | attempt=1 | latencia=1.31s | tokens\u224842
+2025-11-11 13:01:39,400 | INFO | c846c660-10d3-4735-be73-60b862761df1 | OK | attempt=1 | latencia=1.60s | tokens\u224879
+2025-11-11 13:01:40,835 | INFO | 1276c5e8-eadc-4caf-b7b6-dcc6f4802371 | OK | attempt=1 | latencia=1.43s | tokens\u2248132
+2025-11-11 13:01:42,883 | INFO | 3caf6dff-f1e0-4527-bf58-68f921f35feb | OK | attempt=1 | latencia=2.05s | tokens\u2248222
+2025-11-11 13:01:44,342 | INFO | 72150dd6-1041-4244-ab3e-bbbaa6ea6652 | OK | attempt=1 | latencia=1.46s | tokens\u2248278
+2025-11-11 13:01:46,266 | INFO | e8bc829b-d110-4101-aa98-c4e4786c23d0 | OK | attempt=1 | latencia=1.92s | tokens\u2248338
+2025-11-11 13:01:47,664 | INFO | 0ecfb859-29a0-467d-b528-7b5705d93ffc | OK | attempt=1 | latencia=1.40s | tokens\u2248390
+2025-11-11 13:01:49,066 | INFO | 352e08cd-7523-46a0-b5d4-480c4451222a | OK | attempt=1 | latencia=1.40s | tokens\u2248449
+2025-11-11 13:01:52,246 | INFO | 1bfe2fa3-225d-404d-9718-7a091e2983f0 | OK | attempt=1 | latencia=3.18s | tokens\u2248624
+2025-11-11 13:01:52,331 | INFO | ce110e63-52aa-4cbb-b505-9978f34210f5 | OK | attempt=1 | latencia=0.00s | tokens\u224820
+2025-11-11 13:01:52,332 | INFO | 3287bd11-729c-4909-adda-d112d0dbb154 | OK | attempt=1 | latencia=0.00s | tokens\u224833
+2025-11-11 13:01:52,332 | INFO | 3a9ed262-a865-4b76-8811-58f9ab541360 | OK | attempt=1 | latencia=0.00s | tokens\u224844
+2025-11-11 13:01:52,333 | INFO | 2ae294bf-c8c9-41f2-a24c-eae92c7e0e6f | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 13:08:11,027 | INFO | c44335d6-94fa-4ad8-bc21-4c9cd3e3165e | OK | attempt=1 | latencia=2.38s | tokens\u2248105
+2025-11-11 13:08:12,128 | INFO | b713219f-482a-4c53-ad91-12b46114c981 | OK | attempt=1 | latencia=0.99s | tokens\u224811
+2025-11-11 13:08:12,878 | INFO | c313e8c1-1933-4249-8cd4-d13766866581 | OK | attempt=1 | latencia=0.75s | tokens\u224827
+2025-11-11 13:08:13,983 | INFO | a4951d7e-f86c-4e4d-af0c-b051910a00b4 | OK | attempt=1 | latencia=1.10s | tokens\u224834
+2025-11-11 13:08:14,969 | INFO | 5e62b707-7476-45f5-9b70-6d11ff05d093 | OK | attempt=1 | latencia=0.99s | tokens\u224868
+2025-11-11 13:08:16,300 | INFO | 4ffc3b4a-f102-4e46-a475-a742ad0c5801 | OK | attempt=1 | latencia=1.33s | tokens\u2248115
+2025-11-11 13:08:17,631 | INFO | 89c19879-0d72-4b31-bf2c-1d4c60500e86 | OK | attempt=1 | latencia=1.33s | tokens\u2248167
+2025-11-11 13:08:19,322 | INFO | 5853173d-4472-4464-8d01-d73f155965bd | OK | attempt=1 | latencia=1.69s | tokens\u2248231
+2025-11-11 13:08:20,833 | INFO | a83a210a-d196-4001-9d1f-bb35bc8f44da | OK | attempt=1 | latencia=1.51s | tokens\u2248280
+2025-11-11 13:08:22,825 | INFO | f6f94552-b48d-401a-a83b-b51da0d7ea9d | OK | attempt=1 | latencia=1.99s | tokens\u2248352
+2025-11-11 13:08:24,342 | INFO | 5950e904-4cc4-4da6-b141-c7d9dbebe8b3 | OK | attempt=1 | latencia=1.52s | tokens\u2248417
+2025-11-11 13:08:25,787 | INFO | 83cf5130-39f6-40d4-905e-85ad2d0e3124 | OK | attempt=1 | latencia=1.44s | tokens\u2248476
+2025-11-11 13:08:25,865 | INFO | 0691805b-e0f5-41a1-9f3b-6d32ec59334e | OK | attempt=1 | latencia=0.00s | tokens\u224820
+2025-11-11 13:08:25,866 | INFO | 4ca6ff15-b77d-40ff-be51-45e8b3653275 | OK | attempt=1 | latencia=0.00s | tokens\u224833
+2025-11-11 13:08:25,866 | INFO | c95f2522-59dd-40cc-8561-086e1a393eb4 | OK | attempt=1 | latencia=0.00s | tokens\u224844
+2025-11-11 13:08:25,867 | INFO | bc05b71f-1d70-4dc9-ac90-960932b163a6 | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 13:08:43,732 | INFO | b41a91a1-b30c-4908-9046-c5e8b15d8933 | OK | attempt=1 | latencia=2.36s | tokens\u2248112
+2025-11-11 13:08:44,598 | INFO | fa75bfff-1d11-4949-bed4-289914e6cb9a | OK | attempt=1 | latencia=0.76s | tokens\u224813
+2025-11-11 13:08:45,551 | INFO | a56b0566-3e02-448a-b520-2c84031c9257 | OK | attempt=1 | latencia=0.95s | tokens\u224831
+2025-11-11 13:08:46,477 | INFO | 53ca85ad-8446-4154-924f-aa3385cc5dea | OK | attempt=1 | latencia=0.92s | tokens\u224830
+2025-11-11 13:08:47,511 | INFO | 00e3f46d-6e76-4237-a164-903b5ee1228a | OK | attempt=1 | latencia=1.03s | tokens\u224872
+2025-11-11 13:08:48,737 | INFO | 0dc46af5-0336-40c4-ad92-69fb983801f2 | OK | attempt=1 | latencia=1.23s | tokens\u2248126
+2025-11-11 13:08:50,272 | INFO | 1b4df62b-1b7b-4f85-8b49-678bc2cb9a48 | OK | attempt=1 | latencia=1.53s | tokens\u2248184
+2025-11-11 13:08:51,744 | INFO | 5291f868-821a-41ee-8400-0498e510a257 | OK | attempt=1 | latencia=1.47s | tokens\u2248247
+2025-11-11 13:08:53,797 | INFO | 6ea55d09-5e6c-48f7-8d80-ee974e3c647a | OK | attempt=1 | latencia=2.05s | tokens\u2248349
+2025-11-11 13:08:55,963 | INFO | f0ed8eb3-dceb-4420-97ee-f9205ed70b04 | OK | attempt=1 | latencia=2.17s | tokens\u2248464
+2025-11-11 13:08:58,478 | INFO | 7e59d932-4d5f-425b-8b89-db985add844e | OK | attempt=1 | latencia=2.51s | tokens\u2248573
+2025-11-11 13:09:01,667 | INFO | 6f43f3ec-e187-4013-9c22-0237a8b9a2a0 | OK | attempt=1 | latencia=3.19s | tokens\u2248736
+2025-11-11 13:09:01,756 | INFO | 7739a041-2ac5-4e46-a1af-681bfe1da211 | OK | attempt=1 | latencia=0.00s | tokens\u224820
+2025-11-11 13:09:01,756 | INFO | a726dc4b-6095-46e9-8df3-55616d374b66 | OK | attempt=1 | latencia=0.00s | tokens\u224833
+2025-11-11 13:09:01,756 | INFO | 0d348235-a014-402c-87af-074891d913a3 | OK | attempt=1 | latencia=0.00s | tokens\u224844
+2025-11-11 13:09:01,757 | INFO | 65d568cf-39d9-478f-852f-76d408febca3 | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 13:30:41,208 | INFO | 15cf0b0b-7717-4b9a-bb80-51323c31f180 | OK | attempt=1 | latencia=3.00s | tokens\u2248131
+2025-11-11 13:30:42,056 | INFO | 999986e3-a3e8-4e2b-84ba-f8f71490b8c0 | OK | attempt=1 | latencia=0.74s | tokens\u224813
+2025-11-11 13:30:42,788 | INFO | 5e63f563-7170-416c-901d-8e53f3194bac | OK | attempt=1 | latencia=0.73s | tokens\u224826
+2025-11-11 13:30:43,967 | INFO | fae4f180-3523-4536-809e-a3f8c1341087 | OK | attempt=1 | latencia=1.18s | tokens\u224832
+2025-11-11 13:30:45,127 | INFO | b6968b8e-4d0b-42fc-86dc-2de009ea7ac9 | OK | attempt=1 | latencia=1.16s | tokens\u224881
+2025-11-11 13:30:46,625 | INFO | df16ed30-a197-4128-93b6-5a0c0da15baa | OK | attempt=1 | latencia=1.50s | tokens\u2248150
+2025-11-11 13:30:48,163 | INFO | 1a7a33a6-a515-4db7-a879-52705c8eb4df | OK | attempt=1 | latencia=1.54s | tokens\u2248224
+2025-11-11 13:30:50,256 | INFO | a6f5d1e9-8011-4a29-b30d-432785c7b9e2 | OK | attempt=1 | latencia=2.09s | tokens\u2248296
+2025-11-11 13:30:52,874 | INFO | 84b54676-bcb5-4fd3-ae89-8128079f708d | OK | attempt=1 | latencia=2.62s | tokens\u2248421
+2025-11-11 13:30:56,896 | INFO | acd65485-8550-4f32-b3d2-4ebbd2e722e9 | OK | attempt=1 | latencia=4.02s | tokens\u2248561
+2025-11-11 13:30:58,498 | INFO | 5fc99f24-b01b-44a8-9096-1b97452e254f | OK | attempt=1 | latencia=1.60s | tokens\u2248629
+2025-11-11 13:31:00,617 | INFO | 8ff978f4-39d3-49e3-ab2c-20ca85b5412f | OK | attempt=1 | latencia=2.12s | tokens\u2248727
+2025-11-11 13:31:00,711 | INFO | 91064ad4-9289-495a-8745-37ebb6266c2f | OK | attempt=1 | latencia=0.00s | tokens\u224820
+2025-11-11 13:31:00,711 | INFO | 110e7a59-52c6-4b75-94a7-d69c2de62645 | OK | attempt=1 | latencia=0.00s | tokens\u224833
+2025-11-11 13:31:00,711 | INFO | 20eade3f-c1ce-4ce9-9d58-8edc7e0b767a | OK | attempt=1 | latencia=0.00s | tokens\u224844
+2025-11-11 13:31:00,712 | INFO | 2a02090f-9759-4a38-8270-84b5e46539b0 | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 13:42:49,580 | INFO | 16b65446-733a-45d7-9998-b146e58fa55a | OK | attempt=1 | latencia=2.70s | tokens\u2248105
+2025-11-11 13:42:50,586 | INFO | 21d77c0c-fe66-4147-a724-70c02bbecfa7 | OK | attempt=1 | latencia=0.90s | tokens\u224826
+2025-11-11 13:42:51,346 | INFO | c58fb012-39f5-4886-b605-7667af39c141 | OK | attempt=1 | latencia=0.76s | tokens\u224847
+2025-11-11 13:42:52,592 | INFO | a6e44af6-beba-4031-9543-6762f20fc3b5 | OK | attempt=1 | latencia=1.24s | tokens\u224834
+2025-11-11 13:42:53,871 | INFO | 6fa7cf20-500e-48d3-835e-d206e838a52b | OK | attempt=1 | latencia=1.28s | tokens\u224871
+2025-11-11 13:42:55,416 | INFO | 9f5b2c75-a925-4296-825e-3296ecba95a6 | OK | attempt=1 | latencia=1.54s | tokens\u2248132
+2025-11-11 13:42:57,126 | INFO | daefb374-a206-48ae-b7f0-4b7d5eba21c6 | OK | attempt=1 | latencia=1.71s | tokens\u2248183
+2025-11-11 13:42:58,511 | INFO | be32398f-cd5a-4746-8e0d-20505ce75625 | OK | attempt=1 | latencia=1.38s | tokens\u2248243
+2025-11-11 13:43:00,545 | INFO | 979a4e37-5f46-4c5a-885a-12f0834fa003 | OK | attempt=1 | latencia=2.03s | tokens\u2248313
+2025-11-11 13:43:02,494 | INFO | 9d7123bd-648c-49a3-86ea-0b5517b1f1a2 | OK | attempt=1 | latencia=1.95s | tokens\u2248401
+2025-11-11 13:43:04,861 | INFO | c941a41b-608b-4a8c-86ae-366949627b4c | OK | attempt=1 | latencia=2.37s | tokens\u2248526
+2025-11-11 13:43:08,608 | INFO | 8020e08f-9dfa-4d9a-86cd-9245de57f588 | OK | attempt=1 | latencia=3.75s | tokens\u2248724
+2025-11-11 13:43:09,409 | INFO | 670f0387-40df-4aaa-8e50-2ab2d7acf67e | OK | attempt=1 | latencia=0.80s | tokens\u2248737
+2025-11-11 13:43:11,912 | INFO | 31f3b96a-1ecf-4cf9-b525-a136bfa1061b | OK | attempt=1 | latencia=2.50s | tokens\u2248111
+2025-11-11 13:43:15,261 | INFO | 7936630c-e8f8-403f-823e-1413d0286f29 | OK | attempt=1 | latencia=3.35s | tokens\u2248295
+2025-11-11 13:43:16,163 | INFO | a852701b-2c4a-4f8f-89bd-96324baaed8a | OK | attempt=1 | latencia=0.90s | tokens\u2248319
+2025-11-11 13:43:17,156 | INFO | 9cf62c49-0329-4620-b73e-a0a0669e8022 | OK | attempt=1 | latencia=0.99s | tokens\u224832
+2025-11-11 13:43:18,288 | INFO | 8452abf3-cfce-4fba-83bb-602a5e23c2b3 | OK | attempt=1 | latencia=1.13s | tokens\u224868
+2025-11-11 13:43:19,042 | INFO | f4dd119f-332b-4144-b580-2e273bd84822 | OK | attempt=1 | latencia=0.75s | tokens\u224886
+2025-11-11 13:43:22,336 | INFO | be8d787b-4015-4208-b24b-c767b7fd3ee7 | OK | attempt=1 | latencia=3.29s | tokens\u2248130
+2025-11-11 13:48:07,222 | INFO | 20bdcb5d-7220-47b4-9d1f-96a293cb871b | OK | attempt=1 | latencia=2.54s | tokens\u2248118
+2025-11-11 13:48:08,232 | INFO | 5f19489b-589e-41f2-871d-e45cd6d2f317 | OK | attempt=1 | latencia=0.90s | tokens\u224813
+2025-11-11 13:48:09,106 | INFO | ee1896a8-7589-4763-aa7b-6a9162cd6dd3 | OK | attempt=1 | latencia=0.87s | tokens\u224829
+2025-11-11 13:48:10,832 | INFO | 4074d460-ffe7-4906-b702-1481762fd457 | OK | attempt=1 | latencia=1.72s | tokens\u224866
+2025-11-11 13:48:12,263 | INFO | c65ff835-2e5f-47c6-b873-1f9bc399ad7e | OK | attempt=1 | latencia=1.43s | tokens\u2248117
+2025-11-11 13:48:14,621 | INFO | 39b49f08-d907-4454-8c29-44328552ecb6 | OK | attempt=1 | latencia=2.36s | tokens\u2248234
+2025-11-11 13:48:17,676 | INFO | d5a7f002-9ab6-4635-b0c4-927d6043162c | OK | attempt=1 | latencia=3.05s | tokens\u2248358
+2025-11-11 13:48:20,081 | INFO | 1a5fc418-e815-4eb8-a4c0-c9f05a11857e | OK | attempt=1 | latencia=2.40s | tokens\u2248472
+2025-11-11 13:48:26,412 | INFO | 4c489d68-6a1a-4126-9874-2a9d14168ecb | OK | attempt=1 | latencia=6.33s | tokens\u2248833
+2025-11-11 13:48:30,057 | INFO | cdfaff6b-ed2b-4dd4-97fd-21f2fc18c7bd | OK | attempt=1 | latencia=3.64s | tokens\u2248976
+2025-11-11 13:48:32,734 | INFO | 30992b3c-2585-4e3d-8d3d-17128cf71dcc | OK | attempt=1 | latencia=2.68s | tokens\u22481092
+2025-11-11 13:48:35,169 | INFO | 51b15605-8d04-4665-abdf-da4e622a47a2 | OK | attempt=1 | latencia=2.43s | tokens\u22481228
+2025-11-11 13:48:35,255 | INFO | 0424708c-bdf4-44c3-860a-6ef55048066b | OK | attempt=1 | latencia=0.00s | tokens\u224820
+2025-11-11 13:48:35,258 | INFO | b9502627-f187-4866-b66c-457d26fa5fe7 | OK | attempt=1 | latencia=0.00s | tokens\u224820
+2025-11-11 13:48:35,259 | INFO | 52202852-a087-46e6-b362-ea4201785f3e | OK | attempt=1 | latencia=0.00s | tokens\u224833
+2025-11-11 13:48:35,259 | INFO | 9f2486f7-62d6-4fd5-b67d-05d01154e083 | OK | attempt=1 | latencia=0.00s | tokens\u224844
+2025-11-11 13:48:35,260 | INFO | ff680022-fef3-49a4-b495-3a2bea55d363 | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 13:52:15,484 | INFO | 9cd1213f-7a8e-4150-81e6-cd2675139e9b | OK | attempt=1 | latencia=2.25s | tokens\u224897
+2025-11-11 13:52:16,775 | INFO | eb08858d-4213-4b51-ab8f-7edebe68b47d | OK | attempt=1 | latencia=1.18s | tokens\u224831
+2025-11-11 13:52:17,703 | INFO | d9a6c37d-be9d-430a-9640-f7b4eb2cb668 | OK | attempt=1 | latencia=0.93s | tokens\u224850
+2025-11-11 13:52:19,393 | INFO | c6e90056-1ad5-404a-9d75-3f45420507ec | OK | attempt=1 | latencia=1.69s | tokens\u224864
+2025-11-11 13:52:21,182 | INFO | 54252e93-0503-41ca-ba6f-76d6a59008a4 | OK | attempt=1 | latencia=1.79s | tokens\u2248128
+2025-11-11 13:52:23,465 | INFO | 82a7afb1-a200-456b-a207-8063a8eb38f4 | OK | attempt=1 | latencia=2.28s | tokens\u2248245
+2025-11-11 13:52:27,275 | INFO | 5b19e696-b079-46bd-b416-b448e68050bd | OK | attempt=1 | latencia=3.81s | tokens\u2248414
+2025-11-11 13:52:32,092 | INFO | 235226d4-beb1-44e2-b210-2a16661f5af9 | OK | attempt=1 | latencia=4.82s | tokens\u2248659
+2025-11-11 13:52:36,863 | INFO | edfbdbe2-65ab-4925-816f-721d2c489df9 | OK | attempt=1 | latencia=4.77s | tokens\u2248897
+2025-11-11 13:52:40,982 | INFO | 60cfba1b-de12-4390-82b2-035f11a8fb99 | OK | attempt=1 | latencia=4.12s | tokens\u22481107
+2025-11-11 13:52:44,886 | INFO | a5586e93-4c13-4299-92c6-624511772d0a | OK | attempt=1 | latencia=3.90s | tokens\u22481334
+2025-11-11 13:52:49,009 | INFO | ac7ad0ba-45a3-4f7a-b9c9-a0ce4a57c0d0 | OK | attempt=1 | latencia=4.12s | tokens\u22481552
+2025-11-11 13:52:49,719 | INFO | aa7c23bf-ea62-410d-88a3-bd29fac28455 | OK | attempt=1 | latencia=0.71s | tokens\u22481565
+2025-11-11 13:52:51,966 | INFO | 0763311e-9ef6-4103-9c51-c4cecd23925c | OK | attempt=1 | latencia=2.24s | tokens\u2248130
+2025-11-11 14:05:11,905 | INFO | 99ab4d6b-52d8-4297-bf88-c34d440c41b1 | OK | attempt=1 | latencia=2.32s | tokens\u2248112
+2025-11-11 14:05:12,942 | INFO | 4b85f1eb-52bf-43f3-a7fc-945079d3db16 | OK | attempt=1 | latencia=1.02s | tokens\u224827
+2025-11-11 14:05:13,866 | INFO | 083e3b09-3255-479d-b53d-d657f63078f6 | OK | attempt=1 | latencia=0.92s | tokens\u224860
+2025-11-11 14:05:14,944 | INFO | 93409c58-777d-4cf4-a79e-41c2dc668650 | OK | attempt=1 | latencia=1.08s | tokens\u224841
+2025-11-11 14:05:16,221 | INFO | 6e094952-d96b-4d87-a2ed-b60c51e273c8 | OK | attempt=1 | latencia=1.28s | tokens\u224894
+2025-11-11 14:05:17,826 | INFO | 4c71f995-b7cd-4a52-8aed-48f4a318e60c | OK | attempt=1 | latencia=1.60s | tokens\u2248150
+2025-11-11 14:05:19,542 | INFO | 9c8b92e3-dc14-44e4-a5f7-6e6f93fe6dc3 | OK | attempt=1 | latencia=1.72s | tokens\u2248230
+2025-11-11 14:05:22,363 | INFO | 0a428066-a4c9-400c-8493-f1c2bd2a2647 | OK | attempt=1 | latencia=2.82s | tokens\u2248357
+2025-11-11 14:05:26,574 | INFO | 47b27d47-99b0-49e3-9cb1-1c76aa5e4cb8 | OK | attempt=1 | latencia=4.21s | tokens\u2248600
+2025-11-11 14:05:28,622 | INFO | 0507da7f-2e13-43d4-a077-258785be828d | OK | attempt=1 | latencia=2.05s | tokens\u2248712
+2025-11-11 14:05:32,493 | INFO | 6562b15d-f05e-4671-8a1c-67a406749082 | OK | attempt=1 | latencia=3.87s | tokens\u2248915
+2025-11-11 14:05:37,436 | INFO | d63269c7-207c-44d6-8c69-c22dbb3b4c89 | OK | attempt=1 | latencia=4.94s | tokens\u22481163
+2025-11-11 14:05:37,623 | INFO | 3d25cc48-5d8b-4a62-b954-6f428ffe445d | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 14:07:39,464 | INFO | 378cf3c2-3ced-4e53-8d2f-e27358cd033e | OK | attempt=1 | latencia=2.17s | tokens\u224899
+2025-11-11 14:07:40,295 | INFO | 65a84161-426a-410f-851c-0c1c471cd62d | OK | attempt=1 | latencia=0.82s | tokens\u224811
+2025-11-11 14:07:41,140 | INFO | 5a505ff1-95e2-47a4-91a5-46583aff2cc1 | OK | attempt=1 | latencia=0.84s | tokens\u224827
+2025-11-11 14:07:42,681 | INFO | 1a4c2f89-369a-45fd-bcc1-90ee64104bc7 | OK | attempt=1 | latencia=1.54s | tokens\u224847
+2025-11-11 14:07:44,962 | INFO | cea395a8-e6cf-4030-b167-f910249aac93 | OK | attempt=1 | latencia=2.28s | tokens\u2248144
+2025-11-11 14:07:47,397 | INFO | 76785874-6ef3-4792-979c-dcabeb46d36e | OK | attempt=1 | latencia=2.44s | tokens\u2248266
+2025-11-11 14:07:50,565 | INFO | 737ac629-3b63-4aef-b1e8-a1483af57784 | OK | attempt=1 | latencia=3.17s | tokens\u2248438
+2025-11-11 14:07:54,320 | INFO | daa6cc3f-334d-47f7-97cf-118c0a1a9d88 | OK | attempt=1 | latencia=3.75s | tokens\u2248636
+2025-11-11 14:07:59,966 | INFO | 462ac5a0-7dea-4a57-aed4-91acd9869359 | OK | attempt=1 | latencia=5.65s | tokens\u2248992
+2025-11-11 14:08:04,352 | INFO | c5559fa7-dcf2-4e74-a84e-fa930fafab08 | OK | attempt=1 | latencia=4.39s | tokens\u22481213
+2025-11-11 14:08:11,009 | INFO | 7690fa1c-8d94-44d2-93c6-7ddbb49adea5 | OK | attempt=1 | latencia=6.66s | tokens\u22481573
+2025-11-11 14:08:17,902 | INFO | 19d8ab21-6447-4782-a0ac-51a943b88bd6 | OK | attempt=1 | latencia=6.89s | tokens\u22481943
+2025-11-11 14:08:18,731 | INFO | 2d178bb3-91d4-4c1a-abdb-8c7b0deb841f | OK | attempt=1 | latencia=0.83s | tokens\u22481956
+2025-11-11 14:08:20,631 | INFO | 904c967b-7adf-4032-93d5-a7e5456af16f | OK | attempt=1 | latencia=1.90s | tokens\u2248101
+2025-11-11 15:50:24,072 | INFO | HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-11 15:50:24,137 | INFO | HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-11-11 15:50:24,229 | INFO | HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-11-11 15:50:43,216 | INFO | d0d8b8fd-101e-49a7-9977-91b8202a5fb0 | OK | attempt=1 | latencia=0.96s | tokens\u22488
+2025-11-11 15:51:06,222 | INFO | 4f812ae6-d40d-4011-89a9-9ef4341244a7 | OK | attempt=1 | latencia=2.68s | tokens\u2248123
+2025-11-11 15:51:09,400 | INFO | MÉTRICAS | p50=1.82s | p95=0.96 | reintentos=0 | fallbacks=0
+2025-11-11 16:15:26,361 | INFO | 6ddd6f6f-8e71-4b32-adf9-5399f6437aac | OK | attempt=1 | latencia=2.79s | tokens\u2248108
+2025-11-11 16:15:27,261 | INFO | 8554b6ed-8694-4529-a01c-4ef528e82af7 | OK | attempt=1 | latencia=0.89s | tokens\u224814
+2025-11-11 16:15:27,967 | INFO | 77fbdcfe-8fa3-4341-8959-51d221e2ec91 | OK | attempt=1 | latencia=0.71s | tokens\u224827
+2025-11-11 16:15:29,348 | INFO | 7bd72e09-0dae-407f-9196-c4f7c57bd029 | OK | attempt=1 | latencia=1.38s | tokens\u224849
+2025-11-11 16:15:30,306 | INFO | f8906cc7-3e91-46a6-844d-7972b3b43415 | OK | attempt=1 | latencia=0.96s | tokens\u224875
+2025-11-11 16:15:31,822 | INFO | e2f280b8-f4bb-444c-8ba0-fc3afcace941 | OK | attempt=1 | latencia=1.52s | tokens\u2248132
+2025-11-11 16:15:33,367 | INFO | 9adc065d-2569-407b-b69d-97b4eac9345f | OK | attempt=1 | latencia=1.54s | tokens\u2248191
+2025-11-11 16:15:35,212 | INFO | 8815d7b1-59e7-4046-98f1-5e7cb74cf2c1 | OK | attempt=1 | latencia=1.85s | tokens\u2248255
+2025-11-11 16:15:36,995 | INFO | d69ffe0e-c5aa-4085-b425-0065f56cb425 | OK | attempt=1 | latencia=1.78s | tokens\u2248340
+2025-11-11 16:15:39,128 | INFO | 881ca0ec-8234-4d46-8102-6922573e3e12 | OK | attempt=1 | latencia=2.13s | tokens\u2248432
+2025-11-11 16:15:40,839 | INFO | 690693c6-ac74-4c8f-9750-90ad08d2b6d4 | OK | attempt=1 | latencia=1.71s | tokens\u2248513
+2025-11-11 16:15:40,926 | INFO | ab88756e-7a83-48ac-b6c8-13b405b95b27 | OK | attempt=1 | latencia=0.00s | tokens\u2248536
+2025-11-11 16:15:40,929 | INFO | 8d937666-32e2-4538-a315-bb640c8538ac | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 16:25:52,982 | INFO | a2b09817-504e-46d9-9f3f-eaf8f7c492fa | OK | attempt=1 | latencia=0.86s | tokens\u22488
+2025-11-11 16:26:01,341 | INFO | 276b1419-7062-489d-88fd-9cdd55e94643 | OK | attempt=1 | latencia=1.11s | tokens\u224843
+2025-11-11 16:26:28,255 | INFO | 780bcec6-db1b-4a0d-b44d-53198c6b126a | OK | attempt=1 | latencia=0.77s | tokens\u224873
+2025-11-11 16:27:29,809 | INFO | 31e34f9e-846b-47c0-9e2b-c93fa353ea65 | OK | attempt=1 | latencia=1.52s | tokens\u224866
+2025-11-11 16:27:53,981 | INFO | 4211ff98-8f74-4bcc-a6e3-27783fbc52e0 | OK | attempt=1 | latencia=0.94s | tokens\u22488
+2025-11-11 16:29:43,985 | INFO | 86764562-3ea4-4981-b348-91f97c320996 | OK | attempt=1 | latencia=2.55s | tokens\u2248123
+2025-11-11 16:29:44,914 | INFO | 8c3ea388-3dfb-45b6-9660-9f35865a9b9f | OK | attempt=1 | latencia=0.92s | tokens\u224811
+2025-11-11 16:29:45,709 | INFO | 225efb3c-e6d2-4dcc-8bc9-832d2b2ad1e2 | OK | attempt=1 | latencia=0.80s | tokens\u224829
+2025-11-11 16:29:46,966 | INFO | 5b9f0d8d-ae32-4fc5-a0a8-8212c1bb2e4a | OK | attempt=1 | latencia=1.25s | tokens\u224834
+2025-11-11 16:29:48,540 | INFO | bba66147-371b-480b-925f-3c9dbbb958aa | OK | attempt=1 | latencia=1.57s | tokens\u224888
+2025-11-11 16:29:52,104 | INFO | 985c0b46-669d-4510-8ca4-bce2507aadd4 | OK | attempt=1 | latencia=3.56s | tokens\u2248247
+2025-11-11 16:29:56,181 | INFO | 25346f7c-1ba8-4bf7-a465-f4f00c0067bc | OK | attempt=1 | latencia=4.08s | tokens\u2248455
+2025-11-11 16:30:00,972 | INFO | 99c7b387-2d1d-411b-86f5-663b2ea1eca3 | OK | attempt=1 | latencia=4.79s | tokens\u2248671
+2025-11-11 16:30:06,148 | INFO | b7632e9d-76c2-43ce-bafe-e516004e7a5c | OK | attempt=1 | latencia=5.18s | tokens\u2248885
+2025-11-11 16:30:10,908 | INFO | 1930efbe-e507-4483-8865-9b7c4da0b41b | OK | attempt=1 | latencia=4.76s | tokens\u22481123
+2025-11-11 16:30:15,577 | INFO | 3ba08adc-c819-44bf-a3e3-f5301cb47437 | OK | attempt=1 | latencia=4.67s | tokens\u22481394
+2025-11-11 16:30:20,911 | INFO | c5954523-6c6e-4cec-afea-f589dccd5896 | OK | attempt=1 | latencia=5.33s | tokens\u22481636
+2025-11-11 16:30:21,909 | INFO | ba44d87c-fae2-4716-8362-77cc271cf58a | OK | attempt=1 | latencia=1.00s | tokens\u22481658
+2025-11-11 16:30:24,318 | INFO | 75f21136-6c1e-45fc-af3d-d560ee7e9d73 | OK | attempt=1 | latencia=2.41s | tokens\u2248116
+2025-11-11 16:55:44,145 | INFO | MÉTRICAS | p50=0.00s | p95=0.00 | reintentos=0 | fallbacks=0
+2025-11-11 16:55:44,164 | INFO | MÉTRICAS | p50=0.00s | p95=0.00 | reintentos=0 | fallbacks=0
+2025-11-11 16:56:05,574 | INFO | MÉTRICAS | p50=0.00s | p95=0.00 | reintentos=0 | fallbacks=0
+2025-11-11 16:56:58,117 | INFO | MÉTRICAS | p50=0.00s | p95=0.00 | reintentos=0 | fallbacks=0
+2025-11-11 16:57:00,200 | INFO | MÉTRICAS | p50=0.00s | p95=0.00 | reintentos=0 | fallbacks=0
+2025-11-11 16:57:22,036 | INFO | MÉTRICAS | p50=0.00s | p95=0.00 | reintentos=0 | fallbacks=0
+2025-11-11 16:57:30,068 | INFO | MÉTRICAS | p50=0.00s | p95=0.00 | reintentos=0 | fallbacks=0
+2025-11-11 16:57:48,243 | INFO | MÉTRICAS | p50=0.00s | p95=0.00 | reintentos=0 | fallbacks=0
+2025-11-11 16:58:14,138 | INFO | MÉTRICAS | p50=0.00s | p95=0.00 | reintentos=0 | fallbacks=0
+2025-11-11 17:11:47,335 | INFO | 34c7ecaf-4f68-4b66-bf24-c962eb976575 | OK | attempt=1 | latencia=2.53s | tokens\u2248100
+2025-11-11 17:11:49,580 | INFO | 148ba277-b7fc-45ae-9aef-0552160ac7e4 | OK | attempt=1 | latencia=2.24s | tokens\u2248198
+2025-11-11 17:11:52,162 | INFO | 4abcbe87-81f4-401c-aaec-61a66c4d14b8 | OK | attempt=1 | latencia=2.58s | tokens\u2248304
+2025-11-11 17:11:55,978 | INFO | 3c9d22f9-9134-415d-bf94-03a579d7feaf | OK | attempt=1 | latencia=3.81s | tokens\u2248448
+2025-11-11 17:11:57,392 | INFO | 778f2a66-5be6-42fa-95ba-8c231d85b69b | OK | attempt=1 | latencia=1.41s | tokens\u2248407
+2025-11-11 18:42:53,939 | INFO | 6f20d83c-ec82-4a2e-bcdf-73e844a594e9 | OK | attempt=1 | latencia=0.00s | tokens\u224810
+2025-11-11 18:42:53,939 | INFO | 4e173322-c878-4139-935e-64b5bc510f11 | OK | attempt=1 | latencia=0.00s | tokens\u224821
+2025-11-11 18:42:53,941 | INFO | 0c4a85cb-19fc-413a-8816-e6befa56dd76 | OK | attempt=1 | latencia=0.00s | tokens\u224812
+2025-11-11 18:42:53,941 | INFO | faa488cf-f6f6-4604-ac47-419b4a973f04 | OK | attempt=1 | latencia=0.00s | tokens\u224822
+2025-11-11 18:42:53,941 | INFO | b9251e6a-0b01-4622-95cc-f47fd0d6a200 | OK | attempt=1 | latencia=0.00s | tokens\u224832
+2025-11-11 18:42:53,941 | INFO | 09aa4f6e-78e8-4db0-bf7c-5e2487ed0d1f | OK | attempt=1 | latencia=0.00s | tokens\u224842
+2025-11-11 18:42:53,941 | INFO | 357ccff0-a23b-4650-85f9-3ef91287e5cd | OK | attempt=1 | latencia=0.00s | tokens\u224852
+2025-11-11 18:42:53,941 | INFO | e5e9699b-27bf-4f0c-8831-122f956f8df6 | OK | attempt=1 | latencia=0.00s | tokens\u224862
+2025-11-11 18:42:53,941 | INFO | 40cb9375-6302-4ef7-ae46-29ebbe8a4883 | OK | attempt=1 | latencia=0.00s | tokens\u224872
+2025-11-11 18:42:53,941 | INFO | 0f04f394-3800-4982-bee4-91070c96a0e4 | OK | attempt=1 | latencia=0.00s | tokens\u224882
+2025-11-11 18:42:53,942 | INFO | 867334b4-4955-4eda-bec7-b0b779a4b3db | OK | attempt=1 | latencia=0.00s | tokens\u224892
+2025-11-11 18:42:53,942 | INFO | 9e79353f-8a42-4816-848d-748ab87d8430 | OK | attempt=1 | latencia=0.00s | tokens\u2248105
+2025-11-11 18:42:53,944 | INFO | bea31206-591c-41e3-80e8-68ed47fa8b9d | OK | attempt=1 | latencia=0.00s | tokens\u224824
+2025-11-11 18:45:28,078 | INFO | 5dace9fd-1a4f-4354-aa01-bd62ba45972e | OK | attempt=1 | latencia=2.44s | tokens\u2248128
+2025-11-11 18:45:28,916 | INFO | 1dcf6682-3b55-4d72-9bb2-2b83b0b42f09 | OK | attempt=1 | latencia=0.83s | tokens\u224811
+2025-11-11 18:45:29,679 | INFO | 36622aca-78ff-4f3b-9e12-29bc8d7df265 | OK | attempt=1 | latencia=0.76s | tokens\u224827
+2025-11-11 18:45:30,880 | INFO | dd41c24f-ae9a-4bc8-a9b0-a0d3bafee3ee | OK | attempt=1 | latencia=1.20s | tokens\u224832
+2025-11-11 18:45:32,181 | INFO | bda958ac-c465-4679-b4d5-387a297b9cc0 | OK | attempt=1 | latencia=1.30s | tokens\u224879
+2025-11-11 18:45:33,341 | INFO | 85a5a1aa-3137-4c0b-8dcf-cebcb5e442e0 | OK | attempt=1 | latencia=1.16s | tokens\u2248127
+2025-11-11 18:45:35,112 | INFO | bb34c4c8-7733-4fc9-8a52-326b081531b6 | OK | attempt=1 | latencia=1.77s | tokens\u2248185
+2025-11-11 18:45:37,066 | INFO | b528bc90-9334-4f58-bb64-ad3a8a51e14c | OK | attempt=1 | latencia=1.95s | tokens\u2248262
+2025-11-11 18:45:40,867 | INFO | 95355b16-2e02-42b2-a87d-6d5f466a7810 | OK | attempt=1 | latencia=3.80s | tokens\u2248426
+2025-11-11 18:45:46,918 | INFO | b595b01f-a052-42a5-9f87-257d5156f3b1 | OK | attempt=1 | latencia=6.05s | tokens\u2248768
+2025-11-11 18:45:47,000 | INFO | 458d30e1-8597-4550-bd47-82c9e2731591 | OK | attempt=1 | latencia=0.00s | tokens\u2248788
+2025-11-11 18:45:47,000 | INFO | 0000e4ff-bc77-4751-98a6-12edcdb4f715 | OK | attempt=1 | latencia=0.00s | tokens\u2248801
+2025-11-11 18:45:47,003 | INFO | 1d5dd789-1d28-4ca1-b2dd-04098871f092 | OK | attempt=1 | latencia=0.00s | tokens\u224824

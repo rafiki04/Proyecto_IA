@@ -1,0 +1,1 @@
+2025-11-10 23:10:43,382 | INFO | \u2705 OK | intento=1 | latencia=5.42s | tokens=23
